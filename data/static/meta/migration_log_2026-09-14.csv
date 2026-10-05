@@ -1,0 +1,77 @@
+old_path,new_path,note
+RUN_SFINCS.md,archive/docs/RUN_SFINCS.md,merged into README §run entry points
+result/reports/01_file_version_table.md,archive/docs/reports/01_file_version_table.md,intermediate record from data preparation; conclusions moved into README/PDF
+result/reports/02_quality_check_and_acceptance_list.md,archive/docs/reports/02_quality_check_and_acceptance_list.md,intermediate record from data preparation; conclusions moved into README/PDF
+result/reports/03_decision_log_and_open_items.md,archive/docs/reports/03_decision_log_and_open_items.md,intermediate record from data preparation; conclusions moved into README/PDF
+data/processed/topobathy_merged_60m_26917.tif,data/static/terrain/topobathy_merged_60m_26917.tif,shared terrain
+data/processed/topobathy_merged_60m_26917.tif.aux.xml,data/static/terrain/topobathy_merged_60m_26917.tif.aux.xml,shared terrain
+data/processed/topobathy_merged_60m_26917_huc10.tif,data/static/terrain/topobathy_merged_60m_26917_huc10.tif,shared terrain
+data/processed/topobathy_merged_60m_26917_huc10.tif.aux.xml,data/static/terrain/topobathy_merged_60m_26917_huc10.tif.aux.xml,shared terrain
+data/processed/topobathy_merged_60m_26917_active.tif,data/static/terrain/topobathy_merged_60m_26917_active.tif,shared terrain
+data/processed/topobathy_merged_60m_26917_active.tif.aux.xml,,SKIP: does not exist / shared terrain
+data/processed/active_domain_mask_60m_26917.tif,data/static/terrain/active_domain_mask_60m_26917.tif,shared terrain
+data/processed/dem_usgs_60m_26917.tif,data/static/terrain/dem_usgs_60m_26917.tif,shared terrain
+data/processed/crm_60m_26917.tif,data/static/terrain/crm_60m_26917.tif,shared terrain
+data/gis,data/static/gis,model domain / boundaries / HUC10 GeoJSON
+data/my_qgis,data/static/gis/my_qgis,user QGIS originals (read-only)
+data/interim/merged60.npy,data/static/interim/merged60.npy,terrain intermediates
+data/interim/dem60.npy,data/static/interim/dem60.npy,terrain intermediates
+data/interim/crm60.npy,data/static/interim/crm60.npy,terrain intermediates
+data/interim/active_mask.npy,data/static/interim/active_mask.npy,terrain intermediates
+data/interim/huc10_union.npy,data/static/interim/huc10_union.npy,terrain intermediates
+data/interim/uncovered_edge.npy,data/static/interim/uncovered_edge.npy,terrain intermediates
+data/interim/sfincs200_Z.npy,data/static/interim/sfincs200_Z.npy,terrain intermediates
+data/interim/sfincs200_MSK.npy,data/static/interim/sfincs200_MSK.npy,terrain intermediates
+data/interim/sfincs200_Zmin.npy,data/static/interim/sfincs200_Zmin.npy,terrain intermediates
+data/interim/sfincs200_WFRAC.npy,data/static/interim/sfincs200_WFRAC.npy,terrain intermediates
+data/interim/connected_water_60m_26917.tif,data/static/interim/connected_water_60m_26917.tif,terrain intermediates
+data/interim/diff_dem_minus_crm_60m_26917.tif,data/static/interim/diff_dem_minus_crm_60m_26917.tif,terrain intermediates
+data/interim/source_flag_60m_26917.tif,data/static/interim/source_flag_60m_26917.tif,terrain intermediates
+data/meta/study_extent.json,data/static/meta/study_extent.json,domain / terrain / boundary metadata and old-project audit
+data/meta/terrain_60m.json,data/static/meta/terrain_60m.json,domain / terrain / boundary metadata and old-project audit
+data/meta/boundaries.json,data/static/meta/boundaries.json,domain / terrain / boundary metadata and old-project audit
+data/meta/terrain_qc_boundaries.json,data/static/meta/terrain_qc_boundaries.json,domain / terrain / boundary metadata and old-project audit
+data/meta/audit_rasters.csv,data/static/meta/audit_rasters.csv,domain / terrain / boundary metadata and old-project audit
+data/meta/audit_vectors.csv,data/static/meta/audit_vectors.csv,domain / terrain / boundary metadata and old-project audit
+data/meta/audit_tables.csv,data/static/meta/audit_tables.csv,domain / terrain / boundary metadata and old-project audit
+data/meta/audit_checksums.csv,data/static/meta/audit_checksums.csv,domain / terrain / boundary metadata and old-project audit
+sfincs_200m/sfincs.inp,data/static/sfincs_base/sfincs.inp,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.dep,data/static/sfincs_base/sfincs.dep,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.msk,data/static/sfincs_base/sfincs.msk,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.ind,data/static/sfincs_base/sfincs.ind,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.bnd,data/static/sfincs_base/sfincs.bnd,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.src,data/static/sfincs_base/sfincs.src,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.obs,data/static/sfincs_base/sfincs.obs,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs_build.json,data/static/sfincs_base/sfincs_build.json,200 m base grid and boundary points (shared by all events)
+sfincs_200m/check_run.py,data/static/sfincs_base/check_run.py,200 m base grid and boundary points (shared by all events)
+sfincs_200m/qgis,data/static/sfincs_base/qgis,200 m base grid and boundary points (shared by all events)
+sfincs_200m/sfincs.bzs,data/irma/processed/sfincs_forcing/sfincs.bzs,"Irma-specific forcing, not static"
+sfincs_200m/sfincs.dis,data/irma/processed/sfincs_forcing/sfincs.dis,"Irma-specific forcing, not static"
+sfincs_200m/sfincs.ampr,data/irma/processed/sfincs_forcing/sfincs.ampr,"Irma-specific forcing, not static"
+sfincs_200m/sfincs.precip,data/irma/processed/sfincs_forcing/sfincs.precip,"Irma-specific forcing, not static"
+sfincs_200m/alt,data/irma/processed/sfincs_forcing/alt,"Irma-specific forcing, not static"
+sfincs_200m/,,empty directory removed
+data/raw,data/irma/raw,Irma raw downloads (incl. obs_validation)
+data/interim/mrms_P.npy,data/irma/raw/mrms_cache/mrms_P.npy,Irma MRMS decode cache
+data/interim/mrms_FLAG.npy,data/irma/raw/mrms_cache/mrms_FLAG.npy,Irma MRMS decode cache
+data/interim/mrms_lonlat.npy,data/irma/raw/mrms_cache/mrms_lonlat.npy,Irma MRMS decode cache
+data/interim/mrms_raw_cache.npz,data/irma/raw/mrms_cache/mrms_raw_cache.npz,Irma MRMS decode cache
+data/interim/mrms_P_0903_0916.npy,data/irma/raw/mrms_cache/mrms_P_0903_0916.npy,Irma MRMS decode cache
+data/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,data/irma/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,Irma processed forcing and validation data
+data/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,data/irma/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,Irma processed forcing and validation data
+data/processed/acosta_02246500_discharge_15min_utc_m3s.csv,data/irma/processed/acosta_02246500_discharge_15min_utc_m3s.csv,Irma processed forcing and validation data
+data/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,data/irma/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,Irma processed forcing and validation data
+data/processed/mrms_areal_mean_hourly.csv,data/irma/processed/mrms_areal_mean_hourly.csv,Irma processed forcing and validation data
+data/processed/mrms_gaugecorr_qpe01h_jax_0p01deg.nc,data/irma/processed/mrms_gaugecorr_qpe01h_jax_0p01deg.nc,Irma processed forcing and validation data
+data/processed/obs_validation,data/irma/processed/obs_validation,Irma processed forcing and validation data
+data/meta/hydro_quality.json,data/irma/meta/hydro_quality.json,Irma data quality records
+data/meta/hydro_gaps.csv,data/irma/meta/hydro_gaps.csv,Irma data quality records
+data/meta/hydro_incomplete_hours.csv,data/irma/meta/hydro_incomplete_hours.csv,Irma data quality records
+data/meta/mrms_quality.json,data/irma/meta/mrms_quality.json,Irma data quality records
+data/meta/window_options.json,data/irma/meta/window_options.json,Irma data quality records
+data/meta/provenance_check.json,data/irma/meta/provenance_check.json,Irma data quality records
+data/processed/,,empty directory removed
+data/interim/,,empty directory removed
+data/meta/,,empty directory removed
+runs/baseline,runs/irma/baseline,"baseline first run (self-contained inputs, reproducible, unchanged)"
+runs/.last_elapsed_sec,runs/irma/.last_elapsed_sec,runtime log

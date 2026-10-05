@@ -1,0 +1,42 @@
+# ---- grid ----
+mmax            = 255
+nmax            = 195
+dx              = 200.0
+dy              = 200.0
+x0              = 413400.0
+y0              = 3337200.0
+rotation        = 0.0
+epsg            = 26917
+latitude        = 30.35
+# ---- time (UTC) ----
+tref            = 20170906 000000
+tstart          = 20170906 000000
+tstop           = 20170916 000000
+tspinup         = 3600
+dtout           = 3600
+dthisout        = 600
+dtmaxout        = 864000
+storecumprcp    = 1
+dtwnd           = 60
+# ---- physics and numerics ----
+alpha           = 0.5
+theta           = 1.0
+huthresh        = 0.05
+advection       = 1
+manning_land    = 0.06
+manning_sea     = 0.02
+rgh_lev_land    = 0.0
+zsini           = 0.678
+qinf            = 0.0
+# ---- input files ----
+inputformat     = bin
+outputformat    = net
+depfile         = sfincs.dep
+mskfile         = sfincs.msk
+indexfile       = sfincs.ind
+bndfile         = sfincs.bnd
+bzsfile         = sfincs.bzs
+srcfile         = sfincs.src
+disfile         = sfincs.dis
+amprfile        = sfincs.ampr
+obsfile         = sfincs.obs

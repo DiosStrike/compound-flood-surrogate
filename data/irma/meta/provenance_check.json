@@ -1,0 +1,97 @@
+{
+ "generated_utc": "2026-09-14T01:13:15Z",
+ "premise": "outputs/boundary_research/ is a directory generated earlier by an AI assistant; this project reuses only its raw downloaded bytes, not its reports/maps/candidate lines; its terrain maps are not evidence that the NAVD88 conversion was done",
+ "network_status": "the egress policy of this session returned 403 for waterservices.usgs.gov, api.tidesandcurrents.noaa.gov etc., so the downloads could not be re-run to verify the request parameters directly",
+ "checks": [
+  {
+   "item": "NOAA CO-OPS 8720218 Mayport water level",
+   "reused_file": "outputs/boundary_research/noaa/8720218_water_level_raw.json",
+   "independent_file": "data/mayport_water_level.csv (downloaded 2026-03, unit ft)",
+   "n_overlap": 4320,
+   "diff_median_m": -0.000152,
+   "diff_std_m": 0.000873,
+   "diff_absmax_m": 0.001672,
+   "verdict": "verified compliant -- two independent downloads agree record by record; differences are only 0.01 ft rounding noise",
+   "datum_evidence": {
+    "station_orthometric_datum": "NAVD88",
+    "epoch": "1983-2001",
+    "msl_minus_navd88_m": -0.1585,
+    "note": "the median difference between old and new downloads is -0.0002 m, not -0.1585 m, so the old ft series is already NAVD88; both share the same datum"
+   },
+   "is_total_water_level": {
+    "diff_vs_astronomical_prediction_median_m": 0.1805,
+    "diff_vs_prediction_std_m": 0.2631,
+    "verdict": "clearly different from the astronomical tide prediction; confirmed to be observed total water level including meteorological surge"
+   }
+  },
+  {
+   "item": "USGS 02246500 parameter 63160 (NAVD88 water level, used as a same-source cross-check)",
+   "reused_file": "outputs/boundary_research/usgs/02246500_63160.csv",
+   "independent_file": "data/usgs_city_water_level.csv (downloaded 2026-03)",
+   "n_overlap": 1628,
+   "max_abs_diff": 0.0,
+   "approval_status": {
+    "Approved": "1628"
+   },
+   "qualifiers": {
+    "A": "1628"
+   },
+   "verdict": "verified compliant -- identical record by record"
+  },
+  {
+   "item": "USGS 02246500 parameter 00060 raw signed total discharge, not de-tided (used in this project)",
+   "reused_file": "outputs/boundary_research/usgs/02246500_00060.csv",
+   "independent_file": null,
+   "n_records": 1635,
+   "unit_conversion_recheck_max_dev_m3s": 4.547473508864641e-13,
+   "qualifiers": {
+    "A": "1635"
+   },
+   "sign_kept": true,
+   "negative_records": 671,
+   "verdict": "conditionally usable",
+   "limitation": "The old project has no second independent download of 00060, so **no cross-check is possible**. What can be confirmed: (1) independent recomputation of the unit conversion agrees (max deviation < 1e-12); (2) quality flags are kept record by record; (3) the 63160 series produced by the same directory and download workflow is identical to an independent copy, indirectly supporting that workflow; (4) the values look like a tidal station (signed, alternating sign). Full confirmation requires re-downloading and comparing when the network is available."
+  },
+  {
+   "item": "MRMS GaugeCorr_QPE_01H raw grib2",
+   "reused_file": "data/mrms_raw_old/*.grib2 (downloaded 2026-03, not the AI directory)",
+   "independent_file": null,
+   "verdict": "verified compliant",
+   "evidence": "decoded directly from binary by this project's own GRIB2 parser, with no intermediate products: Section 1 reference times match file names one by one (240/240); Section 3 grid is the standard MRMS CONUS 7000x3500 @0.01 deg; Section 5 is DRT template 41 (PNG), R=-30/E=0/D=1; decoded value range matches the MRMS convention (-3 = no coverage)"
+  }
+ ],
+ "not_reused": [
+  {
+   "path": "outputs/boundary_research/proposed_boundary_locations.geojson",
+   "reason": "old candidate-boundary suggestions based on the old task setup; this project re-identifies candidate boundaries from terrain connectivity; not adopted"
+  },
+  {
+   "path": "outputs/boundary_research/proposed_boundary_map_zh.png/.svg",
+   "reason": "old maps, not accepted deliverables"
+  },
+  {
+   "path": "outputs/boundary_research/Jacksonville_Irma_boundary_research_zh.md",
+   "reason": "AI-generated analysis report; read as background only, not as factual evidence"
+  },
+  {
+   "path": "outputs/boundary_research/terrain_figure/*",
+   "reason": "old terrain maps; not evidence that the NAVD88 vertical conversion was done"
+  },
+  {
+   "path": "outputs/boundary_research/usgs/02246500_72137.csv",
+   "reason": "tidally filtered discharge; this task explicitly requires the non-de-tided 00060"
+  },
+  {
+   "path": "data/mrms_qpe_jax/mrms_gaugeCorr_qpe1h_jax_26917.nc",
+   "reason": "rainfall already reprojected to EPSG:26917, violating the requirement \"keep the original ~1 km spatial information, no default interpolation\"; re-decoded from raw grib2 instead"
+  },
+  {
+   "path": "data/dem_1_3arc_10m.tif / dem_study_area.tif / hu10_clip.tif",
+   "reason": "1/3 arc-second (~10 m) DEM; this task explicitly requires the ~30 m 1 arc-second product"
+  },
+  {
+   "path": "jacksonville_sfincs_input/* and QGIS/hu8_study_area/*",
+   "reason": "grid, mask and boundaries of the old large HU8 domain; inconsistent with the two HUC10 study areas of this task"
+  }
+ ]
+}

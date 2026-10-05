@@ -1,0 +1,98 @@
+﻿event,path,description
+matthew,data/matthew/raw/noaa_8720218_water_level_raw.json,NOAA observed water level raw response (±1 day)
+matthew,data/matthew/raw/noaa_8720218_predictions_raw.json,NOAA astronomical tide prediction raw response
+matthew,data/matthew/raw/usgs_02246500_00060_raw.json,USGS IV discharge raw response
+matthew,data/matthew/raw/rain/GaugeCorr_QPE_01H/,"hourly raw rainfall files (528, incl. bracketing segment)"
+matthew,data/matthew/raw/download_log.json,"download log: URL, parameters, time, sha256"
+matthew,data/matthew/raw/rain/rain_decoded_cache_GaugeCorr_QPE_01H.npz,"decode cache (bit-identical to raw, rebuildable)"
+matthew,data/matthew/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,native 6 min water level + gaps + NOAA quality flags
+matthew,data/matthew/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,hourly water level: mean/sample count/coverage/official-estimate fraction/interpolation/filled value/source class
+matthew,data/matthew/processed/mayport_8720218_tide_prediction_6min_utc_navd88_m.csv,astronomical tide prediction 6 min (processed only)
+matthew,data/matthew/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"native 15 min discharge (signed, m3/s) + gaps + qualifiers"
+matthew,data/matthew/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,hourly discharge (same structure as the hourly water-level table)
+matthew,data/matthew/processed/rain_GaugeCorr_QPE_01H_hourly_native_grid.nc,spatial hourly rainfall: precip_mm raw / precip_mm_filled / flag / lat / lon / in_study_rect
+matthew,data/matthew/processed/rain_GaugeCorr_QPE_01H_areal_mean_hourly.csv,study-rectangle areal-mean hourly rainfall (for check plots only)
+matthew,data/matthew/meta/collection_quality_matthew.json,"coverage, gaps, peaks, decoding parameters"
+matthew,data/matthew/meta/gaps_matthew.csv,gap list
+matthew,data/matthew/meta/README_matthew.txt,event directory README
+matthew,result/figures/events/fig_matthew_20d_timeseries.png,four-panel time-series plot PNG
+matthew,result/figures/events/fig_matthew_20d_timeseries.svg,editable vector figure
+matthew,result/figures/events/fig_matthew_20d_timeseries_data.csv,plot data
+ian,data/ian/raw/noaa_8720218_water_level_raw.json,NOAA observed water level raw response (±1 day)
+ian,data/ian/raw/noaa_8720218_predictions_raw.json,NOAA astronomical tide prediction raw response
+ian,data/ian/raw/usgs_02246500_00060_raw.json,USGS IV discharge raw response
+ian,data/ian/raw/rain/MultiSensor_QPE_01H_Pass2/,"hourly raw rainfall files (528, incl. bracketing segment)"
+ian,data/ian/raw/download_log.json,"download log: URL, parameters, time, sha256"
+ian,data/ian/raw/rain/rain_decoded_cache_MultiSensor_QPE_01H_Pass2.npz,"decode cache (bit-identical to raw, rebuildable)"
+ian,data/ian/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,native 6 min water level + gaps + NOAA quality flags
+ian,data/ian/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,hourly water level: mean/sample count/coverage/official-estimate fraction/interpolation/filled value/source class
+ian,data/ian/processed/mayport_8720218_tide_prediction_6min_utc_navd88_m.csv,astronomical tide prediction 6 min (processed only)
+ian,data/ian/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"native 15 min discharge (signed, m3/s) + gaps + qualifiers"
+ian,data/ian/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,hourly discharge (same structure as the hourly water-level table)
+ian,data/ian/processed/rain_MultiSensor_QPE_01H_Pass2_hourly_native_grid.nc,spatial hourly rainfall: precip_mm raw / precip_mm_filled / flag / lat / lon / in_study_rect
+ian,data/ian/processed/rain_MultiSensor_QPE_01H_Pass2_areal_mean_hourly.csv,study-rectangle areal-mean hourly rainfall (for check plots only)
+ian,data/ian/meta/collection_quality_ian.json,"coverage, gaps, peaks, decoding parameters"
+ian,data/ian/meta/gaps_ian.csv,gap list
+ian,data/ian/meta/README_ian.txt,event directory README
+ian,result/figures/events/fig_ian_20d_timeseries.png,four-panel time-series plot PNG
+ian,result/figures/events/fig_ian_20d_timeseries.svg,editable vector figure
+ian,result/figures/events/fig_ian_20d_timeseries_data.csv,plot data
+milton,data/milton/raw/noaa_8720218_water_level_raw.json,NOAA observed water level raw response (±1 day)
+milton,data/milton/raw/noaa_8720218_predictions_raw.json,NOAA astronomical tide prediction raw response
+milton,data/milton/raw/usgs_02246500_00060_raw.json,USGS IV discharge raw response
+milton,data/milton/raw/rain/MultiSensor_QPE_01H_Pass2/,"hourly raw rainfall files (528, incl. bracketing segment)"
+milton,data/milton/raw/download_log.json,"download log: URL, parameters, time, sha256"
+milton,data/milton/raw/rain/rain_decoded_cache_MultiSensor_QPE_01H_Pass2.npz,"decode cache (bit-identical to raw, rebuildable)"
+milton,data/milton/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,native 6 min water level + gaps + NOAA quality flags
+milton,data/milton/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,hourly water level: mean/sample count/coverage/official-estimate fraction/interpolation/filled value/source class
+milton,data/milton/processed/mayport_8720218_tide_prediction_6min_utc_navd88_m.csv,astronomical tide prediction 6 min (processed only)
+milton,data/milton/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"native 15 min discharge (signed, m3/s) + gaps + qualifiers"
+milton,data/milton/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,hourly discharge (same structure as the hourly water-level table)
+milton,data/milton/processed/rain_MultiSensor_QPE_01H_Pass2_hourly_native_grid.nc,spatial hourly rainfall: precip_mm raw / precip_mm_filled / flag / lat / lon / in_study_rect
+milton,data/milton/processed/rain_MultiSensor_QPE_01H_Pass2_areal_mean_hourly.csv,study-rectangle areal-mean hourly rainfall (for check plots only)
+milton,data/milton/meta/collection_quality_milton.json,"coverage, gaps, peaks, decoding parameters"
+milton,data/milton/meta/gaps_milton.csv,gap list
+milton,data/milton/meta/README_milton.txt,event directory README
+milton,result/figures/events/fig_milton_20d_timeseries.png,four-panel time-series plot PNG
+milton,result/figures/events/fig_milton_20d_timeseries.svg,editable vector figure
+milton,result/figures/events/fig_milton_20d_timeseries_data.csv,plot data
+dorian,data/dorian/raw/noaa_8720218_water_level_raw.json,NOAA observed water level raw response (±1 day)
+dorian,data/dorian/raw/noaa_8720218_predictions_raw.json,NOAA astronomical tide prediction raw response
+dorian,data/dorian/raw/usgs_02246500_00060_raw.json,USGS IV discharge raw response
+dorian,data/dorian/raw/rain/GaugeCorr_QPE_01H/,"hourly raw rainfall files (528, incl. bracketing segment)"
+dorian,data/dorian/raw/download_log.json,"download log: URL, parameters, time, sha256"
+dorian,data/dorian/raw/rain/rain_decoded_cache_GaugeCorr_QPE_01H.npz,"decode cache (bit-identical to raw, rebuildable)"
+dorian,data/dorian/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,native 6 min water level + gaps + NOAA quality flags
+dorian,data/dorian/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,hourly water level: mean/sample count/coverage/official-estimate fraction/interpolation/filled value/source class
+dorian,data/dorian/processed/mayport_8720218_tide_prediction_6min_utc_navd88_m.csv,astronomical tide prediction 6 min (processed only)
+dorian,data/dorian/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"native 15 min discharge (signed, m3/s) + gaps + qualifiers"
+dorian,data/dorian/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,hourly discharge (same structure as the hourly water-level table)
+dorian,data/dorian/processed/rain_GaugeCorr_QPE_01H_hourly_native_grid.nc,spatial hourly rainfall: precip_mm raw / precip_mm_filled / flag / lat / lon / in_study_rect
+dorian,data/dorian/processed/rain_GaugeCorr_QPE_01H_areal_mean_hourly.csv,study-rectangle areal-mean hourly rainfall (for check plots only)
+dorian,data/dorian/meta/collection_quality_dorian.json,"coverage, gaps, peaks, decoding parameters"
+dorian,data/dorian/meta/gaps_dorian.csv,gap list
+dorian,data/dorian/meta/README_dorian.txt,event directory README
+dorian,result/figures/events/fig_dorian_20d_timeseries.png,four-panel time-series plot PNG
+dorian,result/figures/events/fig_dorian_20d_timeseries.svg,editable vector figure
+dorian,result/figures/events/fig_dorian_20d_timeseries_data.csv,plot data
+beryl,data/beryl/raw/noaa_8720218_water_level_raw.json,NOAA observed water level raw response (±1 day)
+beryl,data/beryl/raw/noaa_8720218_predictions_raw.json,NOAA astronomical tide prediction raw response
+beryl,data/beryl/raw/usgs_02246500_00060_raw.json,USGS IV discharge raw response
+beryl,data/beryl/raw/rain/StageIV_01h/,"hourly raw rainfall files (528, incl. bracketing segment)"
+beryl,data/beryl/raw/download_log.json,"download log: URL, parameters, time, sha256"
+beryl,data/beryl/raw/rain/rain_decoded_cache_StageIV_01h.npz,"decode cache (bit-identical to raw, rebuildable)"
+beryl,data/beryl/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,native 6 min water level + gaps + NOAA quality flags
+beryl,data/beryl/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,hourly water level: mean/sample count/coverage/official-estimate fraction/interpolation/filled value/source class
+beryl,data/beryl/processed/mayport_8720218_tide_prediction_6min_utc_navd88_m.csv,astronomical tide prediction 6 min (processed only)
+beryl,data/beryl/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"native 15 min discharge (signed, m3/s) + gaps + qualifiers"
+beryl,data/beryl/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,hourly discharge (same structure as the hourly water-level table)
+beryl,data/beryl/processed/rain_StageIV_01h_hourly_native_grid.nc,spatial hourly rainfall: precip_mm raw / precip_mm_filled / flag / lat / lon / in_study_rect
+beryl,data/beryl/processed/rain_StageIV_01h_areal_mean_hourly.csv,study-rectangle areal-mean hourly rainfall (for check plots only)
+beryl,data/beryl/meta/collection_quality_beryl.json,"coverage, gaps, peaks, decoding parameters"
+beryl,data/beryl/meta/gaps_beryl.csv,gap list
+beryl,data/beryl/meta/README_beryl.txt,event directory README
+beryl,result/figures/events/fig_beryl_20d_timeseries.png,four-panel time-series plot PNG
+beryl,result/figures/events/fig_beryl_20d_timeseries.svg,editable vector figure
+beryl,result/figures/events/fig_beryl_20d_timeseries_data.csv,plot data
+all,code/23_collect_events.py,download + processing + interpolation + plotting script (download / process / all)
+all,result/reports/REPORT_CURRENT.pdf,report for this round

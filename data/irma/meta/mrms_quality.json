@@ -1,0 +1,67 @@
+{
+ "generated_utc": "2026-09-14T23:49:36Z",
+ "product": "NOAA MRMS GaugeCorr_QPE_01H (gauge-corrected 1-hour QPE)",
+ "raw_dir": "data/mrms_raw_old",
+ "files_found": 240,
+ "files_expected": 240,
+ "files_missing": [],
+ "grid": {
+  "native_deg": 0.01,
+  "ni": 7000,
+  "nj": 3500,
+  "crs": "EPSG:4326",
+  "window_nx": 57,
+  "window_ny": 40,
+  "lon_range": [
+   -81.915,
+   -81.355
+  ],
+  "lat_range": [
+   30.144999999999996,
+   30.534999999999997
+  ],
+  "covers_study_rect": true,
+  "resampled": false,
+  "reprojected": false
+ },
+ "packing": {
+  "R": -30.0,
+  "E": 0,
+  "D": 1,
+  "nbits": 16,
+  "npts": 24500000,
+  "drt_template": 41
+ },
+ "missing_convention": {
+  "mrms_no_coverage_value": -3.0,
+  "netcdf_fill": -9999.0,
+  "true_zero": "precip_mm == 0.0 and quality_flag == 0"
+ },
+ "time": {
+  "labels": [
+   "2017-09-06T01:00:00Z",
+   "2017-09-16T00:00:00Z"
+  ],
+  "n": 240,
+  "reference_time_matches_label": true,
+  "significance_of_reference_time": "3 = Observation time",
+  "pdt_template": 0,
+  "caveat": "GRIB2 uses PDT=0 (instantaneous template) and the files do not declare an accumulation interval; the 1-hour accumulation and \"time stamp = interval end\" follow the MRMS product definition, not in-file metadata",
+  "shift_applied": "none"
+ },
+ "grid_consistent_across_files": true,
+ "counts": {
+  "valid": 547200,
+  "no_coverage": 0,
+  "file_missing": 0,
+  "true_zero": 443179,
+  "negative": 0,
+  "total": 547200
+ },
+ "event_total_mm": {
+  "min": 183.50000067800283,
+  "median": 332.55000073090196,
+  "max": 465.2999986857176
+ },
+ "note": "the areal-mean time series is for check plots only and cannot replace the spatial rainfall input"
+}

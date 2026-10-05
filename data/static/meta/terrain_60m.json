@@ -1,0 +1,88 @@
+{
+ "generated_utc": "2026-09-14T12:48:18Z",
+ "crs": "EPSG:26917",
+ "cellsize_m": 60.0,
+ "transform": [
+  413400.0,
+  60.0,
+  0.0,
+  3376200.0,
+  0.0,
+  -60.0
+ ],
+ "shape": [
+  650,
+  850
+ ],
+ "nodata": -9999.0,
+ "units": "m",
+ "vertical_datum": "not unified/not converted -- see datum_conflict note",
+ "sources": {
+  "usgs_dem": {
+   "file": "data/dem_crm_hu8/merged_jacksonville_dem_1arc.tif",
+   "tiles": [
+    "data/dem_crm_hu8/USGS_1_n30w082_20251208.tif",
+    "data/dem_crm_hu8/USGS_1_n30w083_20221103.tif",
+    "data/dem_crm_hu8/USGS_1_n31w082_20220725.tif",
+    "data/dem_crm_hu8/USGS_1_n31w083_20220725.tif"
+   ],
+   "native_px_deg": [
+    0.0002777777777870069,
+    0.0002777777777869971
+   ],
+   "native_arcsec": 1.0,
+   "crs": "EPSG:4269 (NAD83 geographic)",
+   "declared_vertical": "file has no VerticalCSType; the official datum of the USGS 3DEP 1 arc-second product is NAVD88 (not declared in the file)",
+   "nodata": -999999.0
+  },
+  "noaa_crm": {
+   "file": "data/dem_crm_hu8/crm_3_arc.tiff",
+   "alt_file": "data/crm_1arc_90m.tiff",
+   "native_px_deg": [
+    0.0008333383233532888,
+    0.0008333383233532891
+   ],
+   "native_arcsec": 3.0,
+   "crs": "EPSG:4326 (file declares WGS 84)",
+   "declared_vertical": "file has no VerticalCSType -- datum unknown",
+   "nodata": null
+  }
+ },
+ "method": {
+  "resample": "bilinear (source geographic coords -> 30 m EPSG:26917 -> 60 m)",
+  "merge": "take the smaller value only where DEM <= 0.5 m, keep the 30 m DEM everywhere else; NoData excluded; if only one source is valid, keep that value",
+  "vertical_transform": "not done (datum not confirmed)",
+  "horizontal_note": "CRM declares WGS84 and the DEM is NAD83; they differ by about 1 m here, far below the 90 m source pixel; no datum shift applied"
+ },
+ "diff_stats": {
+  "overlap_all": {
+   "n": 552500,
+   "median": -0.08421677614649425,
+   "mean": 0.5320326309040164,
+   "p05": -1.421070579442685,
+   "p95": 5.8389724978305235,
+   "std": 2.5705139750606114
+  },
+  "land_dem_gt_1m": {
+   "n": 444678,
+   "median": -0.17014455903905334,
+   "mean": -0.1608180483179172,
+   "p05": -1.4557374358717081,
+   "p95": 1.2259916112169795,
+   "std": 1.0895343687294028
+  },
+  "land_dem_gt_5m": {
+   "n": 320220,
+   "median": -0.15068685743518628,
+   "mean": -0.141947699918949,
+   "p05": -1.3263145423783356,
+   "p95": 1.1384223791743027,
+   "std": 0.9091957646303553
+  }
+ },
+ "valid_fraction": 1.0,
+ "elev_range": [
+  -24.30030062159476,
+  30.82183305214635
+ ]
+}

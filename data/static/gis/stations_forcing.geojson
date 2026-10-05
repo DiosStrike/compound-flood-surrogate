@@ -1,0 +1,44 @@
+{
+ "type": "FeatureCollection",
+ "name": "stations_forcing",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6653735,
+     30.3224616
+    ]
+   },
+   "properties": {
+    "station_id": "02246500",
+    "agency": "USGS",
+    "name": "ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+    "role": "data source for the upstream discharge boundary (gauge)",
+    "parameter": "00060 raw signed total discharge, not de-tided",
+    "lon": -81.6653735,
+    "lat": 30.3224616
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.42789,
+     30.398167
+    ]
+   },
+   "properties": {
+    "station_id": "8720218",
+    "agency": "NOAA CO-OPS",
+    "name": "Mayport (Bar Pilots Dock)",
+    "role": "data source for the downstream water-level boundary (gauge)",
+    "parameter": "water_level observed total water level (NAVD88)",
+    "lon": -81.42789,
+    "lat": 30.398167
+   }
+  }
+ ]
+}

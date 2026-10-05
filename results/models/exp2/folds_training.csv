@@ -1,0 +1,7 @@
+fold,epochs,max_epochs_reached,stopped,best_epoch,best_val_loss,train_hours,mean_epoch_sec,sec_per_step_median,gpus,sessions,eval_seconds,eval_model_epoch
+irma,50,True,max_epochs,48,9.821547626581213e-05,1.695,122.0,0.121,NVIDIA A100-SXM4-80GB,1,34.0,48
+matthew,50,True,max_epochs,42,0.00014892603331562979,1.721,123.9,0.123,NVIDIA A100-SXM4-80GB,1,31.3,42
+ian,50,True,max_epochs,41,0.00014789623565968324,1.696,122.1,0.1215,NVIDIA A100-SXM4-80GB,1,29.2,41
+milton,41,False,early_stop (val loss no improvement for 10 epochs,31,0.00014621913402207252,1.41,123.8,0.123,NVIDIA A100-SXM4-80GB,1,29.6,31
+dorian,50,True,max_epochs,43,0.00011328857215244859,1.726,124.3,0.124,NVIDIA A100-SXM4-80GB,1,29.2,43
+beryl,50,True,max_epochs,45,0.00011325775882472623,1.72,123.8,0.123,NVIDIA A100-SXM4-80GB,1,30.2,45

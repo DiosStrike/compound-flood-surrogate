@@ -1,0 +1,122 @@
+{
+ "event": "beryl",
+ "name": "Beryl",
+ "center_utc": "2012-05-28",
+ "window_utc": [
+  "2012-05-18T00:00:00+00:00",
+  "2012-06-07T00:00:00+00:00"
+ ],
+ "n_hours": 480,
+ "label_convention": "label T = [T-1h, T), left-closed right-open; hourly value = arithmetic mean of valid observations in the interval",
+ "clamp": "endpoint interpolation takes bracketing values from raw data up to ±24 h outside the window",
+ "generated_utc": "2026-09-15T15:37:37Z",
+ "series": {
+  "mayport_waterlevel": {
+   "station": "NOAA CO-OPS 8720218 Mayport (Bar Pilots Dock)",
+   "product": "water_level (observed total water level)",
+   "datum": "NAVD88",
+   "units": "m",
+   "native_step_min": 6,
+   "native_expected": 4800,
+   "native_valid": 4800,
+   "native_coverage": 1.0,
+   "hours_total": 480,
+   "hours_full": 480,
+   "hours_partial": 0,
+   "hours_missing": 0,
+   "hours_interp": 0,
+   "hours_unfillable": 0,
+   "hours_with_official_est": 2,
+   "official_est_records": 6,
+   "longest_gap_h": 0,
+   "peak": {
+    "time_utc": "2012-06-06T03:00:00+00:00",
+    "value": 1.0083
+   },
+   "completeness_after_fill": 1.0
+  },
+  "acosta_discharge": {
+   "station": "USGS 02246500 St. Johns River at Acosta Bridge",
+   "parameter": "00060 discharge, signed",
+   "units": "m3/s (raw ft3/s × 0.028316846592)",
+   "native_step_min": 15,
+   "native_expected": 1920,
+   "native_valid": 1920,
+   "native_coverage": 1.0,
+   "hours_total": 480,
+   "hours_full": 480,
+   "hours_partial": 0,
+   "hours_missing": 0,
+   "hours_interp": 0,
+   "hours_unfillable": 0,
+   "hours_with_official_est": 0,
+   "official_est_records": 0,
+   "qualifier_counts": {
+    "A": 1920
+   },
+   "longest_gap_h": 0,
+   "peak": {
+    "max_time_utc": "2012-05-29T17:00:00+00:00",
+    "max": 4757.230227456,
+    "min_time_utc": "2012-06-04T03:00:00+00:00",
+    "min": -5450.99296896
+   },
+   "completeness_after_fill": 1.0
+  },
+  "rain": {
+   "product": "StageIV_01h",
+   "source": "IEM mesonet archive stage4",
+   "grid": "NCEP Stage IV native HRAP polar-stereographic grid (4762.5 m, true latitude 60N, LoV −105°), cropped to the study rectangle plus 0.06°; not reprojected; lat/lon computed from GRIB1 GDS parameters on a sphere R=6371229 m",
+   "grid_shape": [
+    18,
+    20
+   ],
+   "n_cells_in_rect": 137,
+   "decode": {
+    "R": 0.0,
+    "E": 0,
+    "D": 2,
+    "nbits": 13,
+    "P1": 0,
+    "P2": 1,
+    "tri": 4,
+    "param": 61,
+    "missing_rule": "cells with GRIB1 bitmap 0 = no coverage",
+    "time_rule": "file-name hour = reference time + P2 (1 h) = end of accumulation interval"
+   },
+   "reftime_check_all_ok": true,
+   "hours_total": 480,
+   "hours_file_missing": 0,
+   "file_missing_hours": [],
+   "hours_with_nocov_cells": 0,
+   "cellhours_obs": 65760,
+   "cellhours_interp": 0,
+   "cellhours_unfillable": 0,
+   "longest_gap_h": 0,
+   "event_total_mm_areal": 148.75919708029195,
+   "peak": {
+    "time_utc": "2012-05-28T11:00:00+00:00",
+    "areal_mm": 9.192189781021897
+   },
+   "areal_mean_method": "hourly arithmetic mean (nanmean) over cell centers inside the study rectangle (study_extent.json latlon bbox); for check plots only",
+   "completeness_after_fill": 1.0
+  }
+ },
+ "gaps": [],
+ "peaks": {
+  "waterlevel": {
+   "time_utc": "2012-06-06T03:00:00+00:00",
+   "value": 1.0083
+  },
+  "discharge": {
+   "max_time_utc": "2012-05-29T17:00:00+00:00",
+   "max": 4757.230227456,
+   "min_time_utc": "2012-06-04T03:00:00+00:00",
+   "min": -5450.99296896
+  },
+  "rain": {
+   "time_utc": "2012-05-28T11:00:00+00:00",
+   "areal_mm": 9.192189781021897
+  }
+ }
+}

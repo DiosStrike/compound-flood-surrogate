@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large artifacts not tracked in this repository
+runs/
+data/modelB_v1/
+data/*/raw/
+data/*/scenarios/
+*.pt
+*.pth
+*.npz

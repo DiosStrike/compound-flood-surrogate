@@ -1,0 +1,174 @@
+{
+ "type": "FeatureCollection",
+ "name": "sfincs_bnd_points",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.4189679,
+     30.4091557
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.399013,
+     30.4033359
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.393934,
+     30.390096
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3960429,
+     30.3718704
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.395424,
+     30.3534066
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3940712,
+     30.3350614
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3918265,
+     30.3170231
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3886758,
+     30.2988895
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3848177,
+     30.2807605
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.3810366,
+     30.2627119
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW00",
+    "k": 9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.4575528,
+     30.4377078
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW01",
+    "k": 10
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.4540627,
+     30.4337976
+    ]
+   },
+   "properties": {
+    "bnd_id": "DW01",
+    "k": 11
+   }
+  }
+ ]
+}

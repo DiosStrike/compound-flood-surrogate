@@ -1,0 +1,130 @@
+{
+ "event": "milton",
+ "name": "Milton",
+ "center_utc": "2024-10-10",
+ "window_utc": [
+  "2024-09-30T00:00:00+00:00",
+  "2024-10-20T00:00:00+00:00"
+ ],
+ "n_hours": 480,
+ "label_convention": "label T = [T-1h, T), left-closed right-open; hourly value = arithmetic mean of valid observations in the interval",
+ "clamp": "endpoint interpolation takes bracketing values from raw data up to ±24 h outside the window",
+ "generated_utc": "2026-09-15T15:24:35Z",
+ "series": {
+  "mayport_waterlevel": {
+   "station": "NOAA CO-OPS 8720218 Mayport (Bar Pilots Dock)",
+   "product": "water_level (observed total water level)",
+   "datum": "NAVD88",
+   "units": "m",
+   "native_step_min": 6,
+   "native_expected": 4800,
+   "native_valid": 4800,
+   "native_coverage": 1.0,
+   "hours_total": 480,
+   "hours_full": 480,
+   "hours_partial": 0,
+   "hours_missing": 0,
+   "hours_interp": 0,
+   "hours_unfillable": 0,
+   "hours_with_official_est": 1,
+   "official_est_records": 2,
+   "longest_gap_h": 0,
+   "peak": {
+    "time_utc": "2024-10-10T20:00:00+00:00",
+    "value": 1.1647
+   },
+   "completeness_after_fill": 1.0
+  },
+  "acosta_discharge": {
+   "station": "USGS 02246500 St. Johns River at Acosta Bridge",
+   "parameter": "00060 discharge, signed",
+   "units": "m3/s (raw ft3/s × 0.028316846592)",
+   "native_step_min": 15,
+   "native_expected": 1920,
+   "native_valid": 1917,
+   "native_coverage": 0.9984375,
+   "hours_total": 480,
+   "hours_full": 478,
+   "hours_partial": 2,
+   "hours_missing": 0,
+   "hours_interp": 0,
+   "hours_unfillable": 0,
+   "hours_with_official_est": 0,
+   "official_est_records": 0,
+   "qualifier_counts": {
+    "A": 1917,
+    "": 3
+   },
+   "longest_gap_h": 0,
+   "peak": {
+    "max_time_utc": "2024-10-18T10:00:00+00:00",
+    "max": 5769.557493120001,
+    "min_time_utc": "2024-10-10T09:00:00+00:00",
+    "min": -5592.57720192
+   },
+   "completeness_after_fill": 1.0
+  },
+  "rain": {
+   "product": "MultiSensor_QPE_01H_Pass2",
+   "source": "IEM mtarchive",
+   "grid": "MRMS native 0.01° lat/lon grid, cropped to the study rectangle with a 2-cell margin; not reprojected",
+   "grid_shape": [
+    40,
+    57
+   ],
+   "n_cells_in_rect": 1908,
+   "decode": {
+    "R": -30.0,
+    "E": 0,
+    "D": 1,
+    "drt_template": 41,
+    "missing_rule": "value ≈ -3 or < -0.5 or > 5000 treated as no coverage"
+   },
+   "reftime_check_all_ok": true,
+   "hours_total": 480,
+   "hours_file_missing": 0,
+   "file_missing_hours": [],
+   "hours_with_nocov_cells": 0,
+   "cellhours_obs": 915840,
+   "cellhours_interp": 0,
+   "cellhours_unfillable": 0,
+   "longest_gap_h": 0,
+   "event_total_mm_areal": 92.67248427672958,
+   "peak": {
+    "time_utc": "2024-10-06T21:00:00+00:00",
+    "areal_mm": 7.09433962264151
+   },
+   "areal_mean_method": "hourly arithmetic mean (nanmean) over cell centers inside the study rectangle (study_extent.json latlon bbox); for check plots only",
+   "completeness_after_fill": 1.0
+  }
+ },
+ "gaps": [
+  {
+   "series": "acosta_discharge",
+   "start_utc": "2024-10-15T15:00:00+00:00",
+   "end_utc": "2024-10-15T16:00:00+00:00",
+   "hours": 2,
+   "type": "insufficient samples within hour",
+   "method": "mean of available samples, no interpolation",
+   "in_window": true,
+   "covers_peak": false,
+   "note": "m3/s"
+  }
+ ],
+ "peaks": {
+  "waterlevel": {
+   "time_utc": "2024-10-10T20:00:00+00:00",
+   "value": 1.1647
+  },
+  "discharge": {
+   "max_time_utc": "2024-10-18T10:00:00+00:00",
+   "max": 5769.557493120001,
+   "min_time_utc": "2024-10-10T09:00:00+00:00",
+   "min": -5592.57720192
+  },
+  "rain": {
+   "time_utc": "2024-10-06T21:00:00+00:00",
+   "areal_mm": 7.09433962264151
+  }
+ }
+}

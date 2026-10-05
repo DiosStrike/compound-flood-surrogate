@@ -1,0 +1,101 @@
+{
+ "generated_utc": "2026-09-14T00:52:48Z",
+ "crs": "EPSG:26917 (NAD83 / UTM zone 17N)",
+ "align_m": 600.0,
+ "align_rationale": "600 m = LCM(60 m delivered grid, 200 m later model grid), so both grids align cleanly with the rectangle boundary",
+ "rect_raw": {
+  "xmin": 413580.3749152261,
+  "ymin": 3337718.500845468,
+  "xmax": 463872.7816736751,
+  "ymax": 3375709.7515563313
+ },
+ "rect_aligned": {
+  "xmin": 413400.0,
+  "ymin": 3337200.0,
+  "xmax": 464400.0,
+  "ymax": 3376200.0
+ },
+ "width_m": 51000.0,
+ "height_m": 39000.0,
+ "n_cells_60m": [
+  850,
+  650
+ ],
+ "n_cells_200m": [
+  255,
+  195
+ ],
+ "latlon_bbox_nad83": {
+  "lonmin": -81.90257469345862,
+  "lonmax": -81.36972637372462,
+  "latmin": 30.16310087857447,
+  "latmax": 30.517596142667426
+ },
+ "huc10": {
+  "0308010316": {
+   "name": "Saint Johns River-Atlantic Ocean",
+   "areasqkm": 614.4,
+   "areaacres": 151822.63,
+   "states": "FL",
+   "hutype": "S",
+   "humod": "",
+   "loaddate": "20240815",
+   "tnmid": "{096673AE-29CB-428A-9FF1-6F9FD700E769}",
+   "sourcedata": "Watershed Boundary Dataset (WBD)",
+   "referenceg": "308105,1008807",
+   "n_rings": 1,
+   "n_vertices": 1976,
+   "bbox_ll": [
+    -81.73975276689737,
+    30.170170655253003,
+    -81.37607964558686,
+    30.51230688909692
+   ]
+  },
+  "0308010315": {
+   "name": "Trout River-Saint Johns River",
+   "areasqkm": 360.07,
+   "areaacres": 88974.8,
+   "states": "FL",
+   "hutype": "S",
+   "humod": "",
+   "loaddate": "20240916",
+   "tnmid": "{D5CB0270-AB75-4DD0-B1C8-1D11FB984410}",
+   "sourcedata": "Watershed Boundary Dataset (WBD)",
+   "referenceg": "294178,308105",
+   "n_rings": 1,
+   "n_vertices": 1339,
+   "bbox_ll": [
+    -81.89966258227417,
+    30.21872447913597,
+    -81.55168315468933,
+    30.47843556623286
+   ]
+  }
+ },
+ "stations": {
+  "USGS_02246500": {
+   "name": "ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+   "agency": "USGS",
+   "sid": "02246500",
+   "lon": -81.6653735,
+   "lat": 30.3224616,
+   "role": "upstream_discharge_reference",
+   "src": "NWIS IV sourceInfo.geoLocation (srs reported as EPSG:4326; NWIS actually stores NAD83, difference < 1 m)",
+   "x_26917": 436034.0442346576,
+   "y_26917": 3354705.109130494
+  },
+  "NOAA_8720218": {
+   "name": "Mayport (Bar Pilots Dock)",
+   "agency": "NOAA CO-OPS",
+   "sid": "8720218",
+   "lon": -81.42789,
+   "lat": 30.398167,
+   "role": "sea_side_water_level_reference",
+   "src": "CO-OPS mdapi stations/8720218 (noaa_stations.geojson)",
+   "x_26917": 458896.5536426492,
+   "y_26917": 3362984.484659941
+  }
+ },
+ "note": "rectangular map extent != HUC10 boundary != final active model domain; the three are maintained separately in this project"
+}

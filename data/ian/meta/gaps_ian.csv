@@ -1,0 +1,6 @@
+series,start_utc,end_utc,hours,type,method,in_window,covers_peak,note
+acosta_discharge,2022-10-06T15:00:00+00:00,2022-10-06T15:00:00+00:00,1,whole hour missing,linear interpolation in time,True,False,m3/s
+acosta_discharge,2022-10-06T16:00:00+00:00,2022-10-06T16:00:00+00:00,1,insufficient samples within hour,"mean of available samples, no interpolation",True,False,m3/s
+rain_MultiSensor_QPE_01H_Pass2,2022-09-24T06:00:00+00:00,2022-09-24T06:00:00+00:00,1,whole hour missing,linear interpolation in time,True,False,mm/h areal mean
+rain_MultiSensor_QPE_01H_Pass2,2022-09-25T21:00:00+00:00,2022-09-25T21:00:00+00:00,1,whole hour missing,linear interpolation in time,True,False,mm/h areal mean
+rain_MultiSensor_QPE_01H_Pass2,2022-09-28T16:00:00+00:00,2022-09-28T16:00:00+00:00,1,whole hour missing,linear interpolation in time,True,False,mm/h areal mean

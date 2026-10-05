@@ -1,0 +1,745 @@
+{
+ "seam": {
+  "n_source_switch_cells": 11918,
+  "n_seam_jump_gt_3m": 535,
+  "seam_grad_p99": 4.238259963596004,
+  "interior_grad_p99": 2.8674340728097096
+ },
+ "pits": {
+  "n_pits_gt_2m": 4,
+  "max_pit_depth_m": 2.694683261718457,
+  "n_pits_in_huc10": 4
+ },
+ "channel_connectivity": {
+  "0.0": {
+   "n_wet": 80732,
+   "n_connected": 79426,
+   "acosta_reachable": true,
+   "acosta_along_channel_cells": 591
+  },
+  "-0.5": {
+   "n_wet": 73547,
+   "n_connected": 72270,
+   "acosta_reachable": true,
+   "acosta_along_channel_cells": 592
+  },
+  "0.5": {
+   "n_wet": 101652,
+   "n_connected": 100500,
+   "acosta_reachable": true,
+   "acosta_along_channel_cells": 587
+  },
+  "1.0": {
+   "n_wet": 111155,
+   "n_connected": 109620,
+   "acosta_reachable": true,
+   "acosta_along_channel_cells": 584
+  }
+ },
+ "blockages": {
+  "n_candidates": 62,
+  "top": [
+   {
+    "id": "BLK217",
+    "n_cells": 7,
+    "x": 447270.0,
+    "y": 3360244.285714286,
+    "z_min": 0.21448222256395205,
+    "z_max": 0.38394513247345635,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK260",
+    "n_cells": 5,
+    "x": 440730.0,
+    "y": 3354870.0,
+    "z_min": 1.4843159763951794,
+    "z_max": 2.123705539489986,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK023",
+    "n_cells": 4,
+    "x": 456540.0,
+    "y": 3369960.0,
+    "z_min": 0.08309721593407529,
+    "z_max": 0.10000000149011612,
+    "in_huc10": false
+   },
+   {
+    "id": "BLK076",
+    "n_cells": 4,
+    "x": 452880.0,
+    "y": 3366390.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.10000000149011612,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK102",
+    "n_cells": 4,
+    "x": 456570.0,
+    "y": 3365400.0,
+    "z_min": 0.26900002360343933,
+    "z_max": 0.26900002360343933,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK186",
+    "n_cells": 4,
+    "x": 440940.0,
+    "y": 3362850.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.20279121896258898,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK220",
+    "n_cells": 4,
+    "x": 455280.0,
+    "y": 3360270.0,
+    "z_min": 0.02504395633334374,
+    "z_max": 0.3405648136010904,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK252",
+    "n_cells": 4,
+    "x": 458520.0,
+    "y": 3355770.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.10000000149011612,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK043",
+    "n_cells": 3,
+    "x": 457170.0,
+    "y": 3367610.0,
+    "z_min": 0.08189491912587024,
+    "z_max": 0.10000000149011612,
+    "in_huc10": false
+   },
+   {
+    "id": "BLK048",
+    "n_cells": 3,
+    "x": 457170.0,
+    "y": 3367270.0,
+    "z_min": 0.24189804447514515,
+    "z_max": 0.26899733531304304,
+    "in_huc10": false
+   },
+   {
+    "id": "BLK058",
+    "n_cells": 3,
+    "x": 449430.0,
+    "y": 3366710.0,
+    "z_min": 0.06533588511864945,
+    "z_max": 0.1890604859633242,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK086",
+    "n_cells": 3,
+    "x": 449850.0,
+    "y": 3365950.0,
+    "z_min": 0.09461378943761958,
+    "z_max": 0.8485153906617553,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK127",
+    "n_cells": 3,
+    "x": 443550.0,
+    "y": 3364750.0,
+    "z_min": 0.06469291922036169,
+    "z_max": 0.09337645260236427,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK147",
+    "n_cells": 3,
+    "x": 455390.0,
+    "y": 3364170.0,
+    "z_min": 0.26900002360343933,
+    "z_max": 0.26900002360343933,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK165",
+    "n_cells": 3,
+    "x": 454530.0,
+    "y": 3363630.0,
+    "z_min": 0.05555730667651206,
+    "z_max": 0.07755161302451788,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK173",
+    "n_cells": 3,
+    "x": 457350.0,
+    "y": 3363330.0,
+    "z_min": 0.20109316705585095,
+    "z_max": 0.26946430831140844,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK177",
+    "n_cells": 3,
+    "x": 456330.0,
+    "y": 3363210.0,
+    "z_min": 0.14373567768857043,
+    "z_max": 0.2691100153867545,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK181",
+    "n_cells": 3,
+    "x": 453390.0,
+    "y": 3363150.0,
+    "z_min": 0.040591581232057375,
+    "z_max": 0.10000000149011612,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK202",
+    "n_cells": 3,
+    "x": 454530.0,
+    "y": 3361230.0,
+    "z_min": 0.1691280133069667,
+    "z_max": 0.2614091988679351,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK209",
+    "n_cells": 3,
+    "x": 457110.0,
+    "y": 3360810.0,
+    "z_min": 0.034801018991719154,
+    "z_max": 0.1108767604004864,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK231",
+    "n_cells": 3,
+    "x": 457370.0,
+    "y": 3358530.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.16749484688889166,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK234",
+    "n_cells": 3,
+    "x": 457890.0,
+    "y": 3358350.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.10000000149011612,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK264",
+    "n_cells": 3,
+    "x": 458770.0,
+    "y": 3354030.0,
+    "z_min": 0.10000000149011612,
+    "z_max": 0.2872466025043582,
+    "in_huc10": true
+   },
+   {
+    "id": "BLK005",
+    "n_cells": 2,
+    "x": 448320.0,
+    "y": 3374700.0,
+    "z_min": 0.4509739503158114,
+    "z_max": 0.505822744780435,
+    "in_huc10": false
+   },
+   {
+    "id": "BLK006",
+    "n_cells": 2,
+    "x": 451410.0,
+    "y": 3374640.0,
+    "z_min": 0.23609475707743938,
+    "z_max": 0.27291339369656065,
+    "in_huc10": false
+   }
+  ]
+ },
+ "dry_border_cells": 2228,
+ "wet_border_cells": 768,
+ "cuts": [
+  {
+   "k": 7,
+   "side": "north/east",
+   "n_cells": 657,
+   "width_m": 33360.0,
+   "x0": 458310.0,
+   "y0": 3376170.0,
+   "x1": 464370.0,
+   "y1": 3342870.0,
+   "cx": 463899.58904109587,
+   "cy": 3362079.5890410957,
+   "z_min": -17.962860552598393,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [
+    {
+     "station": "8720218",
+     "along_channel_km": 5.46
+    },
+    {
+     "station": "02246825",
+     "along_channel_km": 15.9
+    },
+    {
+     "station": "8720219",
+     "along_channel_km": 18.0
+    },
+    {
+     "station": "02246621",
+     "along_channel_km": 31.68
+    },
+    {
+     "station": "8720226",
+     "along_channel_km": 34.62
+    }
+   ],
+   "station_ranking_straight_km": [
+    {
+     "station": "8720218",
+     "straight_km": 5.08
+    },
+    {
+     "station": "02246825",
+     "straight_km": 15.13
+    },
+    {
+     "station": "8720219",
+     "straight_km": 17.54
+    },
+    {
+     "station": "02246804",
+     "straight_km": 22.42
+    }
+   ],
+   "nearest_along_channel": "8720218",
+   "nearest_straight": "8720218",
+   "ranking_disagrees": false,
+   "bnd_type": "sea_waterlevel",
+   "proposed_station": "8720218",
+   "reason": "east side toward the open sea, wide inlet; planned to use Mayport observed total water level",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 8,
+   "side": "south",
+   "n_cells": 66,
+   "width_m": 3960.0,
+   "x0": 433110.0,
+   "y0": 3337230.0,
+   "x1": 437010.0,
+   "y1": 3337230.0,
+   "cx": 435060.0,
+   "cy": 3337230.0,
+   "z_min": -8.605537075511199,
+   "dist_to_sea_cells": 870,
+   "station_ranking_along_channel_km": [
+    {
+     "station": "8720226",
+     "along_channel_km": 17.58
+    },
+    {
+     "station": "8720219",
+     "along_channel_km": 34.2
+    },
+    {
+     "station": "02246621",
+     "along_channel_km": 34.26
+    },
+    {
+     "station": "02246825",
+     "along_channel_km": 44.58
+    },
+    {
+     "station": "8720218",
+     "along_channel_km": 46.74
+    }
+   ],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246515",
+     "straight_km": 13.71
+    },
+    {
+     "station": "8720226",
+     "straight_km": 17.28
+    },
+    {
+     "station": "8720219",
+     "straight_km": 27.02
+    },
+    {
+     "station": "02246621",
+     "straight_km": 28.09
+    }
+   ],
+   "nearest_along_channel": "8720226",
+   "nearest_straight": "02246515",
+   "ranking_disagrees": true,
+   "bnd_type": "upstream_discharge",
+   "proposed_station": "02246500",
+   "reason": "southern main-river cross-section, on the same St. Johns River main channel as Acosta; planned to apply Acosta Q(t) as an approximation",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 6,
+   "side": "north",
+   "n_cells": 20,
+   "width_m": 1200.0,
+   "x0": 456450.0,
+   "y0": 3376170.0,
+   "x1": 457590.0,
+   "y1": 3376170.0,
+   "cx": 457020.0,
+   "cy": 3376170.0,
+   "z_min": -6.934328920523174,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [
+    {
+     "station": "8720218",
+     "along_channel_km": 14.94
+    },
+    {
+     "station": "02246825",
+     "along_channel_km": 19.02
+    },
+    {
+     "station": "8720219",
+     "along_channel_km": 21.54
+    },
+    {
+     "station": "02246621",
+     "along_channel_km": 35.22
+    },
+    {
+     "station": "8720226",
+     "along_channel_km": 38.16
+    }
+   ],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246825",
+     "straight_km": 10.17
+    },
+    {
+     "station": "8720218",
+     "straight_km": 13.32
+    },
+    {
+     "station": "02246804",
+     "straight_km": 15.87
+    },
+    {
+     "station": "8720219",
+     "straight_km": 17.92
+    }
+   ],
+   "nearest_along_channel": "8720218",
+   "nearest_straight": "02246825",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": "8720218",
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 4,
+   "side": "north",
+   "n_cells": 8,
+   "width_m": 480.0,
+   "x0": 452430.0,
+   "y0": 3376170.0,
+   "x1": 452850.0,
+   "y1": 3376170.0,
+   "cx": 452640.0,
+   "cy": 3376170.0,
+   "z_min": -4.340730579575118,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246825",
+     "straight_km": 7.96
+    },
+    {
+     "station": "02246804",
+     "straight_km": 12.06
+    },
+    {
+     "station": "8720218",
+     "straight_km": 14.59
+    },
+    {
+     "station": "8720219",
+     "straight_km": 15.71
+    }
+   ],
+   "nearest_along_channel": null,
+   "nearest_straight": "02246825",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": null,
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 3,
+   "side": "north",
+   "n_cells": 6,
+   "width_m": 360.0,
+   "x0": 447930.0,
+   "y0": 3376170.0,
+   "x1": 448230.0,
+   "y1": 3376170.0,
+   "cx": 448080.0,
+   "cy": 3376170.0,
+   "z_min": -3.793813075633675,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246825",
+     "straight_km": 7.89
+    },
+    {
+     "station": "02246804",
+     "straight_km": 8.69
+    },
+    {
+     "station": "8720219",
+     "straight_km": 14.5
+    },
+    {
+     "station": "02246751",
+     "straight_km": 14.66
+    }
+   ],
+   "nearest_along_channel": null,
+   "nearest_straight": "02246825",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": null,
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 5,
+   "side": "north",
+   "n_cells": 4,
+   "width_m": 240.0,
+   "x0": 455310.0,
+   "y0": 3376170.0,
+   "x1": 455490.0,
+   "y1": 3376170.0,
+   "cx": 455400.0,
+   "cy": 3376170.0,
+   "z_min": -2.3111949626692563,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [
+    {
+     "station": "8720218",
+     "along_channel_km": 14.94
+    },
+    {
+     "station": "02246825",
+     "along_channel_km": 18.72
+    },
+    {
+     "station": "8720219",
+     "along_channel_km": 21.24
+    },
+    {
+     "station": "02246621",
+     "along_channel_km": 34.92
+    },
+    {
+     "station": "8720226",
+     "along_channel_km": 37.86
+    }
+   ],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246825",
+     "straight_km": 9.17
+    },
+    {
+     "station": "8720218",
+     "straight_km": 13.64
+    },
+    {
+     "station": "02246804",
+     "straight_km": 14.42
+    },
+    {
+     "station": "8720219",
+     "straight_km": 17.0
+    }
+   ],
+   "nearest_along_channel": "8720218",
+   "nearest_straight": "02246825",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": "8720218",
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 9,
+   "side": "south",
+   "n_cells": 3,
+   "width_m": 180.0,
+   "x0": 461430.0,
+   "y0": 3337230.0,
+   "x1": 461550.0,
+   "y1": 3337230.0,
+   "cx": 461490.0,
+   "cy": 3337230.0,
+   "z_min": -2.7966599157206247,
+   "dist_to_sea_cells": 520,
+   "station_ranking_along_channel_km": [
+    {
+     "station": "8720218",
+     "along_channel_km": 25.74
+    },
+    {
+     "station": "8720219",
+     "along_channel_km": 33.12
+    },
+    {
+     "station": "02246825",
+     "along_channel_km": 33.66
+    },
+    {
+     "station": "02246621",
+     "along_channel_km": 46.8
+    },
+    {
+     "station": "8720226",
+     "along_channel_km": 49.74
+    }
+   ],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246515",
+     "straight_km": 21.31
+    },
+    {
+     "station": "8720218",
+     "straight_km": 25.88
+    },
+    {
+     "station": "8720219",
+     "straight_km": 28.83
+    },
+    {
+     "station": "8720226",
+     "straight_km": 30.16
+    }
+   ],
+   "nearest_along_channel": "8720218",
+   "nearest_straight": "02246515",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": "8720218",
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 1,
+   "side": "north",
+   "n_cells": 2,
+   "width_m": 120.0,
+   "x0": 445470.0,
+   "y0": 3376170.0,
+   "x1": 445530.0,
+   "y1": 3376170.0,
+   "cx": 445500.0,
+   "cy": 3376170.0,
+   "z_min": -1.6695137579690897,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246804",
+     "straight_km": 7.37
+    },
+    {
+     "station": "02246825",
+     "straight_km": 8.94
+    },
+    {
+     "station": "02246751",
+     "straight_km": 12.58
+    },
+    {
+     "station": "8720219",
+     "straight_km": 14.43
+    }
+   ],
+   "nearest_along_channel": null,
+   "nearest_straight": "02246804",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": null,
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  },
+  {
+   "k": 2,
+   "side": "north",
+   "n_cells": 2,
+   "width_m": 120.0,
+   "x0": 447030.0,
+   "y0": 3376170.0,
+   "x1": 447090.0,
+   "y1": 3376170.0,
+   "cx": 447060.0,
+   "cy": 3376170.0,
+   "z_min": -0.07150339125462296,
+   "dist_to_sea_cells": 0,
+   "station_ranking_along_channel_km": [],
+   "station_ranking_straight_km": [
+    {
+     "station": "02246804",
+     "straight_km": 8.1
+    },
+    {
+     "station": "02246825",
+     "straight_km": 8.22
+    },
+    {
+     "station": "02246751",
+     "straight_km": 13.82
+    },
+    {
+     "station": "8720219",
+     "straight_km": 14.42
+    }
+   ],
+   "nearest_along_channel": null,
+   "nearest_straight": "02246804",
+   "ranking_disagrees": true,
+   "bnd_type": "tidal_tributary_waterlevel",
+   "proposed_station": null,
+   "reason": "truncated tidal tributary; candidate stations listed by along-waterway geodesic distance; to be selected after manual confirmation of connectivity",
+   "status": "candidate - pending confirmation"
+  }
+ ],
+ "generated_utc": "2026-09-14T02:52:29Z",
+ "wet_threshold_m": 0.0,
+ "huc10_raster_km2": {
+  "0308010316": 613.9764,
+  "0308010315": 359.7984
+ },
+ "disclaimer": "This file only records candidates and items to be checked. Without user confirmation, no candidate line may be used as a final model boundary, and terrain must not be modified on this basis."
+}

@@ -1,0 +1,2 @@
+series,start_utc,end_utc,hours,type,method,in_window,covers_peak,note
+rain_GaugeCorr_QPE_01H,2016-10-11T16:00:00+00:00,2016-10-11T17:00:00+00:00,2,whole hour missing,linear interpolation in time,True,False,mm/h areal mean

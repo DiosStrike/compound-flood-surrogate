@@ -1,0 +1,22 @@
+Event,Model,Single-step active,Single-step land,Rollout active,Rollout land
+irma,Persistence,0.09630,0.04039,,
+irma,Exp 1 same-event,0.02140,0.01411,0.36973,0.33640
+irma,Exp 2 zero-shot,0.02418,0.01546,0.43950,0.40435
+matthew,Persistence,0.09259,0.03397,,
+matthew,Exp 1 same-event,0.01848,0.01227,0.26964,0.23350
+matthew,Exp 2 zero-shot,0.02177,0.01372,0.19992,0.16341
+ian,Persistence,0.10651,0.03859,,
+ian,Exp 1 same-event,0.01854,0.00740,0.16128,0.07355
+ian,Exp 2 zero-shot,0.02095,0.00842,0.22328,0.15316
+milton,Persistence,0.09458,0.03727,,
+milton,Exp 1 same-event,0.01558,0.00910,0.28347,0.25641
+milton,Exp 2 zero-shot,0.01782,0.01001,0.31487,0.24490
+dorian,Persistence,0.11823,0.03754,,
+dorian,Exp 1 same-event,0.01485,0.00735,0.14208,0.08475
+dorian,Exp 2 zero-shot,0.01741,0.00865,0.29164,0.17344
+beryl,Persistence,0.10223,0.02703,,
+beryl,Exp 1 same-event,0.01816,0.01050,0.22108,0.14894
+beryl,Exp 2 zero-shot,0.02046,0.01127,0.28932,0.17548
+Mean of 6,Persistence,0.10174,0.03580,,
+Mean of 6,Exp 1 same-event,0.01784,0.01012,0.24121,0.18892
+Mean of 6,Exp 2 zero-shot,0.02043,0.01125,0.29309,0.21912

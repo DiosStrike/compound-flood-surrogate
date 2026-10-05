@@ -1,0 +1,141 @@
+{
+ "type": "FeatureCollection",
+ "name": "sfincs_obs_points",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6653735,
+     30.3224616
+    ]
+   },
+   "properties": {
+    "station_id": "02246500",
+    "name": "ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+    "in_active": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.42789,
+     30.398167
+    ]
+   },
+   "properties": {
+    "station_id": "8720218",
+    "name": "Mayport (Bar Pilots Dock)",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.5583,
+     30.3867
+    ]
+   },
+   "properties": {
+    "station_id": "8720219",
+    "name": "Dames Point",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6583,
+     30.32
+    ]
+   },
+   "properties": {
+    "station_id": "8720226",
+    "name": "Southbank Riverwalk, St Johns River",
+    "in_active": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.5900917,
+     30.2644071
+    ]
+   },
+   "properties": {
+    "station_id": "02246515",
+    "name": "POTTSBURG CREEK NR S JACKSONVILLE",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6964876,
+     30.4174606
+    ]
+   },
+   "properties": {
+    "station_id": "02246621",
+    "name": "TROUT R NR JACKSONVILLE",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6682,
+     30.4433389
+    ]
+   },
+   "properties": {
+    "station_id": "02246751",
+    "name": "BROWARD RIVER BL BISCAYNE BLVD",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.5968889,
+     30.4549417
+    ]
+   },
+   "properties": {
+    "station_id": "02246804",
+    "name": "DUNN CREEK AT DUNN CREEK RD",
+    "in_active": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.5182611,
+     30.4483806
+    ]
+   },
+   "properties": {
+    "station_id": "02246825",
+    "name": "CLAPBOARD CREEK NR JACKSONVILLE",
+    "in_active": 1
+   }
+  }
+ ]
+}

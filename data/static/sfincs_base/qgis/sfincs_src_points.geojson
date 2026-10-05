@@ -1,0 +1,66 @@
+{
+ "type": "FeatureCollection",
+ "name": "sfincs_src_points",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6396768,
+     30.3153246
+    ]
+   },
+   "properties": {
+    "bnd_id": "UP01",
+    "q_frac": 0.3196,
+    "z_m": -8.63
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6396651,
+     30.3135198
+    ]
+   },
+   "properties": {
+    "bnd_id": "UP01",
+    "q_frac": 0.1498,
+    "z_m": -4.04
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6376084,
+     30.3171394
+    ]
+   },
+   "properties": {
+    "bnd_id": "UP01",
+    "q_frac": 0.3776,
+    "z_m": -10.2
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.63762,
+     30.3189442
+    ]
+   },
+   "properties": {
+    "bnd_id": "UP01",
+    "q_frac": 0.153,
+    "z_m": -4.13
+   }
+  }
+ ]
+}

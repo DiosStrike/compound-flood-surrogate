@@ -1,0 +1,2 @@
+series,start_utc,end_utc,hours,type,method,in_window,covers_peak,note
+acosta_discharge,2024-10-15T15:00:00+00:00,2024-10-15T16:00:00+00:00,2,insufficient samples within hour,"mean of available samples, no interpolation",True,False,m3/s

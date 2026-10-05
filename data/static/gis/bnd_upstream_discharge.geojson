@@ -1,0 +1,95 @@
+{
+ "type": "FeatureCollection",
+ "name": "bnd_upstream_discharge",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "bnd_id": "UP01",
+    "bnd_type": "upstream_discharge",
+    "station": "02246500",
+    "station_name": "ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+    "forcing": "USGS 02246500 parameter 00060 raw signed total discharge, not de-tided, Q(t), m3/s",
+    "width_m": 660.0,
+    "z_min_m": -11.16,
+    "flow_area_m2": 5402.8,
+    "Q_fraction": 1.0,
+    "note": "redrawn by the user in QGIS on 2026-09-14; attributes recomputed on the 60 m grid by 12_apply_v2.py",
+    "status": "user_edited_v2",
+    "length_m": 629.6,
+    "n_edge_cells": 11
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.63915731539437,
+      30.318940171318985
+     ],
+     [
+      -81.63911383641658,
+      30.31853146892786
+     ],
+     [
+      -81.63907905323437,
+      30.317992329603392
+     ],
+     [
+      -81.63907905323437,
+      30.317479277665594
+     ],
+     [
+      -81.63910772852445,
+      30.31702520840889
+     ],
+     [
+      -81.639287541675,
+      30.316531203207226
+     ],
+     [
+      -81.63951040604434,
+      30.31610573486577
+     ],
+     [
+      -81.63959820109892,
+      30.315774815044634
+     ],
+     [
+      -81.63963196842761,
+      30.315518183346608
+     ],
+     [
+      -81.63969950308498,
+      30.31503193381351
+     ],
+     [
+      -81.6399021070571,
+      30.314734781321064
+     ],
+     [
+      -81.63996964171447,
+      30.31460646547205
+     ],
+     [
+      -81.6402262734125,
+      30.31444438229435
+     ],
+     [
+      -81.64069226254838,
+      30.314174243664855
+     ],
+     [
+      -81.64102993583526,
+      30.31384332384372
+     ]
+    ]
+   }
+  }
+ ]
+}

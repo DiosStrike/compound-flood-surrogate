@@ -1,0 +1,56 @@
+{
+ "folds_root": "results/models/exp3/folds",
+ "n_configs_per_fold": 46,
+ "methods": [
+  "B",
+  "Bp",
+  "C"
+ ],
+ "N": [
+  1,
+  2,
+  3,
+  5,
+  10
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "note": "only 6 points across six folds; correlations are qualitative observations only",
+ "covariates": {
+  "degrade": {
+   "irma": 1.13,
+   "matthew": 1.18,
+   "ian": 1.13,
+   "milton": 1.14,
+   "dorian": 1.17,
+   "beryl": 1.13
+  },
+  "wet_km2": {
+   "irma": 479.8,
+   "matthew": 448.2,
+   "ian": 94.2,
+   "milton": 166.4,
+   "dorian": 107.9,
+   "beryl": 246.8
+  },
+  "rain_mm": {
+   "irma": 322.1,
+   "matthew": 259.6,
+   "ian": 39.3,
+   "milton": 84.0,
+   "dorian": 58.8,
+   "beryl": 120.8
+  },
+  "product": {
+   "irma": "MRMS",
+   "matthew": "MRMS",
+   "ian": "MRMS",
+   "milton": "MRMS",
+   "dorian": "MRMS",
+   "beryl": "StageIV"
+  }
+ }
+}

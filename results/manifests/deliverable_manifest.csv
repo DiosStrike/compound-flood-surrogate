@@ -1,0 +1,208 @@
+rel_path,role,bytes,mtime_utc,sha256
+CLAUDE.md,,6267,2026-09-14T21:27:53Z,060fdcd5677bfbcc7dd135956004d01e3b69da79a0b706eb26a1b41c649d7dec
+PROGRESS.md,,4028,2026-09-14T21:27:53Z,cfa2d34deef7815b05683a9c2112798be79b5b917c9f43983f4cde3539308728
+Proposal.md,,19975,2026-09-14T21:28:13Z,ac595ee84d220feb9fd65815e08a823754ea4601b4e48f3bca2323518fa5f45d
+README.md,,4225,2026-09-14T21:28:04Z,847e4408a2127e60bc13a33b3117961fdf0660a2a3dce9051d8cccf5be4b07fe
+run_sfincs.sh,,2342,2026-09-14T19:35:47Z,35533df1c62040a8959e4be35954d8ca7a95e913c8746a4ea4d9ef9ff08e0f5e
+result/figures/fig02_Mayport_water_level_raw_vs_hourly.png,visualization PNG,421071,2026-09-14T18:41:52Z,5c348c364cd1a74fb10f82f2c0d1a92066a7a3413452bc0a317b1a5afac28a23
+result/figures/fig03_Acosta_discharge_raw_vs_hourly.png,visualization PNG,478555,2026-09-14T18:41:52Z,9456b6b9ce89cc52ec5abf31b52047a38d8a280f44944a2952aae24b825cf5fd
+result/figures/fig04_MRMS_rainfall_timeseries_and_spatial.png,visualization PNG,338416,2026-09-14T18:41:52Z,17494e2b5cc8029c0af73030adedb8e8ad04bd8228299186de3c7618f50453eb
+result/figures/fig05_terrain_sources_and_qc.png,visualization PNG,1673505,2026-09-14T18:41:53Z,3c370ae8e7d9383f5ba16bc7c0ba6f215db2d62fbed955503adf53c929a218c4
+result/figures/fig_baseline_01_Mayport_boundary.png,visualization PNG,293449,2026-09-14T19:57:23Z,10fd6638118f8ba5db1ed66b4e48a3db9d0fa08ea07f2966f8f41c448d53bd46
+result/figures/fig_baseline_02_station_timeseries.png,visualization PNG,303658,2026-09-14T19:57:23Z,972bb8800b2ca8e0d0a7b2b51b60ad4c65e6c21251fecfb7c6fc8cb41ec88105
+result/figures/fig_baseline_03_max_inundation.png,visualization PNG,142328,2026-09-14T19:57:23Z,e35bd24ab199d60fbe685477668ade354c7603ca2b0fbf790f29326f40175bd1
+result/figures/fig_baseline_04_elevation_bands_and_timeseries.png,visualization PNG,226327,2026-09-14T19:57:24Z,0fe90617abd6e504051666982fb62e45476bfa661009b6acab49c744e75cb232
+result/figures/fig_baseline_05_format_check.png,visualization PNG,257433,2026-09-14T19:57:24Z,0184f5d734506271ff95616eaeebb11a1bae82b782a52f9f8f4e65686ea129f3
+result/figures/fig_baseline_06_obs_comparison.png,visualization PNG,438870,2026-09-14T20:23:37Z,5d2cc0b8cc534f60d6b4f38060a473f19a29e83b78f6871f47cd5488dcaaa06b
+result/figures/fig_sfincs_forcing.png,visualization PNG,458195,2026-09-14T23:49:50Z,def1ce573b374e32160bd9c35e689dbaf11084f9a9b7f0f7e79e4bbb69f41fa1
+result/figures/fig_sfincs_grid.png,visualization PNG,186840,2026-09-14T23:49:49Z,3a5c0415af031e89a47eed66d934a5db91da28ea6d63179edca7ac1a56b5a484
+result/figures/fig_sfincs_resampling.png,visualization PNG,296947,2026-09-14T23:49:49Z,e3858bc707ea8f2f44e0a703503bd4cb812da0d60520b2af8e7407878329cedf
+result/figures/fig_sfincs_rain_field.png,visualization PNG,183363,2026-09-14T23:49:50Z,7e0005750cb646bcecb7ae96e3f96b205ddd1f6866390904721f96a4669b9fc1
+result/figures/fig_forcing_timeseries.png,visualization PNG,536246,2026-09-14T23:49:47Z,b7b938a8986adb2868aa0d6d196b98a22a25cb2a13b216a0a234694a12305728
+result/figures/fig_model_domain_details_and_openings.png,visualization PNG,830676,2026-09-14T18:42:21Z,c003db22441007d45c331ac22172f781fdb1cde9435fa7099f1d54a98756442e
+result/figures/fig_model_boundary_final_check.png,visualization PNG,780638,2026-09-14T23:49:47Z,bf2fb29a68a150f964f5dac2bfe83bb698f15822902e00a5fcfab2f2184858bb
+result/figures/fig_window_options_W0.png,visualization PNG,543041,2026-09-14T14:54:58Z,96e6b14bb08cbe1943a1474dfe937ab30073056e62f5f808fa4cf2de230bb2f2
+result/figures/fig_window_options_WA.png,visualization PNG,541295,2026-09-14T14:54:57Z,c04b8a8b18498d6dba8e97d3b1f420b88b542a16c2c09524063b9b898fbb9276
+result/figures/fig_window_options_WB.png,visualization PNG,540899,2026-09-14T14:54:57Z,debe9d3bdf0bef6a7a815b59fc3dff4410d9332f915b2c34640d9598e2e0c940
+result/figures/fig_window_options_overview.png,visualization PNG,482392,2026-09-14T14:54:56Z,f0252ffac51c45fe9a5f5b7c0303226da73437614aa80f9efc51bd593ecb10dc
+result/figures/fig_rain_spatial_distribution.png,visualization PNG,251940,2026-09-14T23:49:48Z,61600803127a7bc8a8172263ab5c6ad5208b3a48ee1e0fd88d199c2f307d07c4
+result/manifests/deliverable_manifest.csv,manifest,19215,2026-09-14T19:06:10Z,12beb4b2b7a191507d11c09728d5060770cc792cb8ca24b91e01de49be1d090e
+result/manifests/reuse_sources.csv,manifest,3235,2026-09-14T19:06:10Z,3d25313ec27acae04df6afaea78887882d2d187eb6e359b68390d3511d526e2a
+result/reports/Flood_2.0_SFINCS_input_overview.pdf,report,446191,2026-09-14T23:49:50Z,3f4795876ba885ee639a5b03cfa422e3fc5cb369978bdf4bee270c88cffd7ebf
+result/reports/Flood_2.0_baseline_first_run_analysis.pdf,report,510068,2026-09-14T19:57:24Z,7c4f293b2a1b8d4ef6765894fbf3da31810a0025b2aeb15d205a617e1c4e6f79
+result/reports/Flood_2.0_window_options_comparison.pdf,report,213294,2026-09-14T14:54:58Z,6abab885c79e7b4e9ff87f2e4c2d34e4d959efed2cec2e72bf6d6a9de304ea3d
+result/reports/Flood_2.0_progress_report.pdf,report,749580,2026-09-14T23:49:48Z,c03916a54840fb9bc6ed7ff72ee2fc0fe8bb6ea82c837910efa41862ee9de468
+archive/docs/RUN_SFINCS.md,archive,4881,2026-09-14T19:35:58Z,447190a2c30b27f09dd94765009e7f71b0f3122d81bc3c4826110baab6c26688
+archive/docs/reports/01_file_version_table.md,archive,8652,2026-09-14T01:20:19Z,76b127744650a3fb4609eb75597a90a407b0455b65a13cd395b9b38dbdc18a5e
+archive/docs/reports/02_quality_check_and_acceptance_list.md,archive,10633,2026-09-14T02:56:53Z,5885ff15d3e1da416f59d6fc5668c1b4488a40d8859fe1a865943e70eb116976
+archive/docs/reports/03_decision_log_and_open_items.md,archive,4334,2026-09-14T12:53:31Z,2b1358de0e4ad3a309815ff9c774fe546aac863eaa7a36a06f39c1a9ad95f0e5
+archive/code_backup_2026-09-14/01_audit_old_project.py,archive,8371,2026-09-14T23:48:39Z,cc616b24dc65ea5900d2e176f3a314c20c51fe2fb3595c5ae8341cdc43dffafc
+archive/code_backup_2026-09-14/02_define_extent.py,archive,8224,2026-09-14T23:48:39Z,ac4c4c4ec70eb29539801b1751d498b3752fec54c26e6c5a9f3fdb446a01d179
+archive/code_backup_2026-09-14/03_build_terrain.py,archive,12010,2026-09-14T23:48:39Z,80cfb69e794a1be2599c5203d2d45c2ecec20773b7af208c654dc5659e795327
+archive/code_backup_2026-09-14/04_hydro_series.py,archive,12621,2026-09-14T23:48:39Z,b8f3fa418459e6cc3ff7e66b02338b62d5a0a1c30d2514f00804bc4c7f89b503
+archive/code_backup_2026-09-14/05_mrms_rainfall.py,archive,15682,2026-09-14T23:48:39Z,e021094e4727f9a10e1a573b245cd751e6cba695d1f8fb49f07465de339a31c0
+archive/code_backup_2026-09-14/06_terrain_qc_boundaries.py,archive,25697,2026-09-14T23:48:39Z,d6af34ea130342f81b18dba0cb126c039ec2e46b7d1648445cd1fee390efcb4f
+archive/code_backup_2026-09-14/07_figures.py,archive,26423,2026-09-14T23:48:39Z,fb551c1a5a725e010655f95d105e2d39660be56f29e2bbfec613e9e10d960311
+archive/code_backup_2026-09-14/08_provenance_check.py,archive,9186,2026-09-14T23:48:39Z,ebad56ec7c00f088c8d88ecc2bde09646397eec0fc01bc0d8f86beb14e0417ac
+archive/code_backup_2026-09-14/09_manifest.py,archive,5089,2026-09-14T23:48:39Z,5a62d36768023d644a58ab84fc961d20ef5970f1106d437f4a7dd1c926b4d1a3
+archive/code_backup_2026-09-14/10_active_domain_boundaries.py,archive,20705,2026-09-14T23:48:39Z,f95589cffec95efc4149244054ad192e2cd925ef12e325538ded489863b9b641
+archive/code_backup_2026-09-14/11_integrate_v2.py,archive,12622,2026-09-14T23:48:39Z,2ecd47a2443de2a9a47d8ddf8ebb6165541ce1912970a3c1cc2cd954119031b0
+archive/code_backup_2026-09-14/12_apply_v2.py,archive,9365,2026-09-14T23:48:39Z,42ea71a3212e7b63cb3a159a9b1b720b83a7869ad946f633b1a51f2d86d78cbc
+archive/code_backup_2026-09-14/13_report_v2.py,archive,17750,2026-09-14T23:48:39Z,954b8f87356af2be45396a6e06ca9bb824b349ee5c0f39258f6cbe2d2d4f3e85
+archive/code_backup_2026-09-14/14_window_options.py,archive,18474,2026-09-14T23:48:39Z,96bfefb8ce0a4cd1c635a5ed3e6d793a048c4ec827af9f670ee912eb8a030773
+archive/code_backup_2026-09-14/15_boundary_check.py,archive,7229,2026-09-14T23:48:39Z,a2fe6975dc539b3ba732fd06ffdb521ffd46573f8d70c91540af466a0f9aecdf
+archive/code_backup_2026-09-14/16_build_sfincs.py,archive,24718,2026-09-14T23:48:39Z,118afcaa3ed9150e4ceb6a1c0314dc80110916e1ce3bd5e3f2c95222545c8112
+archive/code_backup_2026-09-14/17_sfincs_report.py,archive,22288,2026-09-14T23:48:39Z,6d19045a2349455eca28ac836e73512e161eb9d65064f2b4f203b2d55e94b0df
+archive/code_backup_2026-09-14/18_validate_obs.py,archive,11284,2026-09-14T23:48:39Z,20e2882eaca301f71b5fc6f229333bf77c2c1b616b1816f67816ad9dd8be450b
+code/01_audit_old_project.py,script,8292,2026-09-14T23:49:28Z,d2f90ec1a617d0f6d53a14e27fc2aeda93a760530d03f69f0b14cf431d97ec69
+code/02_define_extent.py,script,8137,2026-09-14T23:49:28Z,bb1a0fa0f7ea7bd682f59c03eb26ed60360444e0c5ee52e8917cb19665bbf6d9
+code/03_build_terrain.py,script,11921,2026-09-14T23:49:28Z,8105ec46ace597fafa88b507faf1b396b754e07f88c0e4cbc9c782f248267443
+code/04_hydro_series.py,script,12482,2026-09-14T23:49:36Z,f7e38ee72173f2e8625cbfbdcfff42d68215ab595151025c2509e2ee141f9ec0
+code/05_mrms_rainfall.py,script,15626,2026-09-14T23:49:28Z,eb024fb2904871973de6870e581133f6f94d181ad084829fabe830bba80e2ff1
+code/06_terrain_qc_boundaries.py,script,25631,2026-09-14T23:49:28Z,0261e58af106d81324f5fe8ec20ece2eac040767620d8266064f4bbe1dc8c3c5
+code/07_figures.py,script,26404,2026-09-14T23:49:28Z,04e109ff4aa78a193f0d513d8961f726b3dab19f3c5001dba1785ad15b27e095
+code/08_provenance_check.py,script,9170,2026-09-14T23:49:28Z,eb290c37a44f0e700d3808013de9eecd055f26b40f8e2afabe85ba0e04b9f6e8
+code/09_manifest.py,script,5683,2026-09-14T23:49:28Z,677b97a214c4ac39b386477a435cad8a6648eac18179dc4d37d4d79af983c7c6
+code/10_active_domain_boundaries.py,script,20670,2026-09-14T23:49:28Z,bbd16bc8fb822e46f28559d003a3c8e60158626084ab9b0743fde5d15f893dea
+code/11_integrate_v2.py,script,12527,2026-09-14T23:49:28Z,89f315c5810966c3dfd7b7728b79b1a5eb6713aa2c2e8e3e10fb6d12ed0dbdc4
+code/12_apply_v2.py,script,9270,2026-09-14T23:49:28Z,80841e16febb1042ae6f5d6e933b31184b3312cd0de3b55b59680db2f1d4fc50
+code/13_report_v2.py,script,17664,2026-09-14T23:49:28Z,1e3f1ac7f07068a8fb0327eda87a709a241f67652218ee84ccd28d8293954b0a
+code/14_window_options.py,script,18383,2026-09-14T23:49:28Z,6f9c5b6c4782054b07cb65180c8b13f2276e90b13df842bf8d1915aa3ba0949e
+code/15_boundary_check.py,script,7139,2026-09-14T23:49:28Z,2360d0710cf31c462e4b70d5e05a5bdeb3f4437e720221874e33e53d599395eb
+code/16_build_sfincs.py,script,24811,2026-09-14T23:49:28Z,cd65b943e43abbcd3ac046d105732241bc4bc8772e6f85d93872b92486a291d1
+code/17_sfincs_report.py,script,22249,2026-09-14T23:49:28Z,056a73ba18a0e49461789a65a2ecf5a696a4fe42664216646a0fecf6c39913ff
+code/18_validate_obs.py,script,11356,2026-09-14T23:49:28Z,fd67ee3702620b9efb895602752a1ed7b7af94667d21db541191050080e6a104
+code/geoio.py,script,34350,2026-09-14T02:50:52Z,ca80e5c2607ed731f840e038b71ca3bb0132f875e6abd80a44931b420b8d740a
+code/migrate_2026-09-14.py,script,5919,2026-09-14T23:47:06Z,fcb1108b5e2e5730123acea03505c907bcd536f24cbb9e7a39c76a691628863e
+code/patch_paths.py,script,10633,2026-09-14T23:48:33Z,e9c60bf21a6cdfaabf5b61613bdf5c74fee0740220823ccd84100fe93f001f57
+code/paths.py,script,3222,2026-09-14T23:47:06Z,8e44eabc14232d87745d9ba853f9a546d620a1ae77c76c7b62c2345905fd6213
+code/window_config.py,script,2181,2026-09-14T15:04:47Z,f060dfc3135ecf44f560e2431053421d346548516c2584ab1e005200be8c9280
+data/irma/meta/hydro_gaps.csv,Irma data quality records,8121,2026-09-14T23:49:36Z,efe4b83516af84207687d4320ab1c70d790c58ed0e8bd2903a8006ef79425cec
+data/irma/meta/hydro_incomplete_hours.csv,Irma data quality records,5453,2026-09-14T23:49:36Z,b925eb4b4dd5fd98e3acb60b5f27d9b18ffff2adca7e317f2f9ae12b8749b2e5
+data/irma/meta/hydro_quality.json,Irma data quality records,33706,2026-09-14T23:49:36Z,bb9cf9b9939d75cfe0a35d42dd292f82493f7145a43c0e70c70ccdbecaff7885
+data/irma/meta/mrms_quality.json,Irma data quality records,1572,2026-09-14T23:49:36Z,a9e06505acef7954e9fe040a8bfea77b671f3a0a1bf776334996132eb4fb726c
+data/irma/meta/provenance_check.json,Irma data quality records,4608,2026-09-14T01:13:15Z,31020f56e7e0f4592dc808673e038cf86dbe7f15d928fdc82d5a3c30313d813c
+data/irma/meta/window_options.json,Irma data quality records,2808,2026-09-14T14:54:56Z,1a084c19edecc1772685b161c9dbc976c7140fc2f9df61898728769f8f843298
+data/irma/scenarios/README.txt,Irma scenarios (not generated),101,2026-09-14T23:47:12Z,caa1598a35e11ef69a4c65647b4a63f5293660b1022a3969c897baee199e709f
+data/irma/processed/acosta_02246500_discharge_15min_utc_m3s.csv,"Irma processed forcing, SFINCS forcing, observation validation",141673,2026-09-14T23:49:36Z,bf9c30923e46260f5d67c6e3aca5fde0cc0e38ad3601786e646b4b5614c3d76d
+data/irma/processed/acosta_02246500_discharge_hourly_utc_m3s.csv,"Irma processed forcing, SFINCS forcing, observation validation",50281,2026-09-14T23:49:36Z,4799e3dcda830e17d3e53c9e5df56e4c33ea8b9bba68083584a62008fbc0476c
+data/irma/processed/mayport_8720218_waterlevel_6min_utc_navd88_m.csv,"Irma processed forcing, SFINCS forcing, observation validation",324465,2026-09-14T23:49:36Z,255b657f5bcb0edf3f639c473c8577a6a724d92a7e410fab88d6fb73fcbab796
+data/irma/processed/mayport_8720218_waterlevel_hourly_utc_navd88_m.csv,"Irma processed forcing, SFINCS forcing, observation validation",27689,2026-09-14T23:49:36Z,496e5a7d6b126676b5faa68efa1fffef99aa7a24c21baeaf743b8d9b02415f3e
+data/irma/processed/mrms_areal_mean_hourly.csv,"Irma processed forcing, SFINCS forcing, observation validation",9828,2026-09-14T23:49:36Z,c64eab1c8a8588b2657da46e6e8f025f9cdadd32608c06c6854aaf089dec0636
+data/irma/processed/mrms_gaugecorr_qpe01h_jax_0p01deg.nc,"Irma processed forcing, SFINCS forcing, observation validation",4948140,2026-09-14T23:49:36Z,dab839e110ecf32d4ece030e3b385ca515702545cab94a001469d2cb26b75511
+data/irma/processed/obs_validation/baseline/02246500_navd88.csv,"Irma processed forcing, SFINCS forcing, observation validation",24139,2026-09-14T20:23:36Z,878d6ef035f2255c849a7398c9616f1376f5465b2643d7f2bc66312f8e250826
+data/irma/processed/obs_validation/baseline/02246515_navd88.csv,"Irma processed forcing, SFINCS forcing, observation validation",26818,2026-09-14T20:23:36Z,f4973676effeb241989b3895eb157825e79e17bc21f6c11596f81a43722d0fd9
+data/irma/processed/obs_validation/baseline/02246621_gage_local.csv,"Irma processed forcing, SFINCS forcing, observation validation",22852,2026-09-14T20:23:36Z,4bda95547dd3d22d4789900000662b8d18dad328641ad7d8e7b094dffce108dd
+data/irma/processed/obs_validation/baseline/02246751_gage_local.csv,"Irma processed forcing, SFINCS forcing, observation validation",26878,2026-09-14T20:23:36Z,209498af5792f657d79f22008a1fabb9d03ff019f719077614db3cdb6dd1ffe6
+data/irma/processed/obs_validation/baseline/02246804_gage_local.csv,"Irma processed forcing, SFINCS forcing, observation validation",26992,2026-09-14T20:23:36Z,ec3c27cccd7ab000940a167c962d2486bd48d46dd8abe0094134138408780b96
+data/irma/processed/obs_validation/baseline/02246825_gage_local.csv,"Irma processed forcing, SFINCS forcing, observation validation",27055,2026-09-14T20:23:36Z,724a69322db3210976971dbc937fec59d1a9c19eff3430b1412e178aebe7f392
+data/irma/processed/obs_validation/baseline/8720218_navd88.csv,"Irma processed forcing, SFINCS forcing, observation validation",71982,2026-09-14T20:23:36Z,2fb0cc42f6317a617bff1bdfb9e3ba8dcd4010b9c9b73ed17a8254a8ab40624e
+data/irma/processed/obs_validation/baseline/8720219_navd88.csv,"Irma processed forcing, SFINCS forcing, observation validation",71656,2026-09-14T20:23:36Z,0077a3414068df876a29637c24b705a625ea39329885bfe1688ab82b43efbd38
+data/irma/processed/obs_validation/baseline/8720226_navd88.csv,"Irma processed forcing, SFINCS forcing, observation validation",71339,2026-09-14T20:23:36Z,b0a13c65fd5b119d1afe4117fd0ceb169fd72eb3fab87724d9f9e8260b327ffa
+data/irma/processed/sfincs_forcing/sfincs.ampr,"Irma processed forcing, SFINCS forcing, observation validation",2432220,2026-09-14T23:49:37Z,5656a674b2edbbc050abbaafef8cf491c8fc5a29298aeefbcd33b80beaac3b37
+data/irma/processed/sfincs_forcing/sfincs.bzs,"Irma processed forcing, SFINCS forcing, observation validation",285719,2026-09-14T23:49:37Z,4f18704b53c12b5cb46a17e5397434b4a0ec225be163e2bfe282bae712ed34c3
+data/irma/processed/sfincs_forcing/sfincs.dis,"Irma processed forcing, SFINCS forcing, observation validation",47740,2026-09-14T23:49:37Z,190aa063722f435304338a660b23741da7aafa4c99b069a2610eff91873de587
+data/irma/processed/sfincs_forcing/sfincs.precip,"Irma processed forcing, SFINCS forcing, observation validation",4820,2026-09-14T23:49:37Z,b94f1a650c8ea86a0c59ad1a61b3d7f057fb2760c8078cb9dbbaf8bc29fb373c
+data/irma/processed/sfincs_forcing/alt/sfincs_hourly.bzs,"Irma processed forcing, SFINCS forcing, observation validation",28560,2026-09-14T23:49:37Z,ce070ae38ce124863923c16c0bf2a64c3f514dc7f860171d6ad72d4e83601e1c
+data/irma/processed/sfincs_forcing/alt/sfincs_hourly.dis,"Irma processed forcing, SFINCS forcing, observation validation",13200,2026-09-14T23:49:37Z,4390492f33ac6d7205003049a416293f848109234054d96c4df71e9435f79ab2
+data/irma/raw/mlp_continuous_USGS-02246500_20260914T025734.zip,Irma raw downloads and MRMS cache,294332,2026-09-14T02:57:35Z,b73719ea4872d6f35dd3fa0a1b254f2dd690a9f1556eaf6e8eaef9235d01968a
+data/irma/raw/noaa_8720218_metadata.json,Irma raw downloads and MRMS cache,5702,2026-09-13T14:45:38Z,e55371f4e9fb46111466b551a079ceda84517fcd9e7c497d9ee51d682b5c0e4f
+data/irma/raw/noaa_8720218_water_level_raw.json,Irma raw downloads and MRMS cache,324777,2026-09-13T14:45:37Z,d88d04aa78b37fd590a524abb20636bc25c0ba3fbafb82d201cfec56f6483a95
+data/irma/raw/usgs_02246500_00060_raw.csv,Irma raw downloads and MRMS cache,131045,2026-09-13T14:49:41Z,60690ecc944bec4767eaf90917b2c39571b05fdef8031d6d88e80778589ed5d1
+data/irma/raw/mrms_cache/mrms_FLAG.npy,Irma raw downloads and MRMS cache,547328,2026-09-14T23:49:36Z,8567b773659508da2f51231633196d488bab7f0f0037641c63d75fdcd463a6df
+data/irma/raw/mrms_cache/mrms_P.npy,Irma raw downloads and MRMS cache,4377728,2026-09-14T23:49:36Z,633885daa72aa764a390b38854a1df0f0ebb3fcdbfecb33db815d473b84805aa
+data/irma/raw/mrms_cache/mrms_P_0903_0916.npy,Irma raw downloads and MRMS cache,5691008,2026-09-14T14:54:56Z,e6b321d33b6fd35503c2425cff214f42c703ac8628ac2f0ee5991b7507b68caa
+data/irma/raw/mrms_cache/mrms_lonlat.npy,Irma raw downloads and MRMS cache,176,2026-09-14T23:49:36Z,638a9b71437593b4b60d62f356b16fcb6f0fcc4ff233ddfbb2ada339e03b267f
+data/irma/raw/mrms_cache/mrms_raw_cache.npz,Irma raw downloads and MRMS cache,130189,2026-09-14T15:07:29Z,a7c3c251c425ef1c184cf2b39bb0306e68754429591f275253bedb8efa0878dc
+data/irma/raw/obs_validation/baseline/noaa_8720218_water_level.json,Irma raw downloads and MRMS cache,198490,2026-09-14T20:22:53Z,4ad0fc3ca9eb98ee1d73d123f1be89aaac532916dc6b2a45476561d924ce7cf2
+data/irma/raw/obs_validation/baseline/noaa_8720219_water_level.json,Irma raw downloads and MRMS cache,198119,2026-09-14T20:22:53Z,b0b5e1e25510565c03ad3833662d6855b3fd5aed0f034f85f11b23ab5eddb5cf
+data/irma/raw/obs_validation/baseline/noaa_8720226_water_level.json,Irma raw downloads and MRMS cache,198021,2026-09-14T20:22:53Z,bbacaa379f2a1930b6a40f5ed39909af79f0213b7879c02416a6bcb25a97cb86
+data/irma/raw/obs_validation/baseline/usgs_02246500_iv.json,Irma raw downloads and MRMS cache,141606,2026-09-14T20:22:52Z,4ae6e5a1187516068a302fb16aa68108a2bb7f6dde8d50781e59026a16c1a5e7
+data/irma/raw/obs_validation/baseline/usgs_02246515_iv.json,Irma raw downloads and MRMS cache,156851,2026-09-14T20:22:53Z,a0d93b6031722ef494f0817cd6e36f3f01f0527e184c75272e9a5682783ab3a6
+data/irma/raw/obs_validation/baseline/usgs_02246621_iv.json,Irma raw downloads and MRMS cache,66904,2026-09-14T20:22:54Z,d6591271081087f2231d593a0ef516411dfedd4688b89dbd4e8756f28b233efb
+data/irma/raw/obs_validation/baseline/usgs_02246751_iv.json,Irma raw downloads and MRMS cache,78540,2026-09-14T20:22:54Z,523b4d9a5b251c91b93b0d48309e882358bc1e497be939c2a7764b30d2d04714
+data/irma/raw/obs_validation/baseline/usgs_02246804_iv.json,Irma raw downloads and MRMS cache,78655,2026-09-14T20:22:54Z,97561de62b0b00c524340f2a4d5e9d1a76029b0e9e9135450159d1ec6201c2cb
+data/irma/raw/obs_validation/baseline/usgs_02246825_iv.json,Irma raw downloads and MRMS cache,78732,2026-09-14T20:22:55Z,edb3c65772553a7cdf96659b52c05c25b89a0f4a41f77aa5fbb262ce1745fd75
+data/static/sfincs_base/check_run.py,SFINCS 200 m base grid (v1 block average),4078,2026-09-14T19:21:35Z,dbda3a0708b797800126296a4ad786283dde81a59ac31ecc777a56eba5541567
+data/static/sfincs_base/sfincs.bnd,SFINCS 200 m base grid (v1 block average),324,2026-09-14T23:49:37Z,5264dff8132dea9e7eba36c39adbe9294a0e9ce4891a619f69c05109bc35761e
+data/static/sfincs_base/sfincs.dep,SFINCS 200 m base grid (v1 block average),97868,2026-09-14T23:49:37Z,7339b86f5bf7a8b8a7f0d5b5d404948c908869cf7f566dffb4811c1643b84049
+data/static/sfincs_base/sfincs.ind,SFINCS 200 m base grid (v1 block average),97872,2026-09-14T23:49:37Z,eb7f684e251eced32589063da14ed85344ff4aad0874270fff1b3f9ce595b0b6
+data/static/sfincs_base/sfincs.inp,SFINCS 200 m base grid (v1 block average),1014,2026-09-14T23:49:37Z,a2f133d120a0ba48b09dd69e41aa4f3ba63d66039895ce573d3e2c862d6413e5
+data/static/sfincs_base/sfincs.msk,SFINCS 200 m base grid (v1 block average),24467,2026-09-14T23:49:37Z,1f44112a7b35083627cf4de20d66f588f5cd8d30f8d4c24df31cdd03c824ad9f
+data/static/sfincs_base/sfincs.obs,SFINCS 200 m base grid (v1 block average),348,2026-09-14T23:49:37Z,f4451030cdfc39abb95303368e06c2778aa4ec9984a7365ae320af00011d3487
+data/static/sfincs_base/sfincs.src,SFINCS 200 m base grid (v1 block average),108,2026-09-14T23:49:37Z,53a524477e914b7b125aa0bafdd5cd989472f5a0da66fe96759822ec5a414e67
+data/static/sfincs_base/sfincs_build.json,SFINCS 200 m base grid (v1 block average),6566,2026-09-14T23:49:37Z,2716d9907bccf6cc28707734e8853d755815f30e68b8e1387fd6bc85897af72f
+data/static/sfincs_base/qgis/sfincs_bnd_points.geojson,SFINCS 200 m base grid (v1 block average),2394,2026-09-14T23:49:37Z,cfcc428619da1084b90de600d8b7c7a5e20df9a080e3bc923c94738d52f04b90
+data/static/sfincs_base/qgis/sfincs_dep_200m.tif,SFINCS 200 m base grid (v1 block average),88666,2026-09-14T23:49:37Z,fcf3c7071a39d8f7350817940ede2be573559d21433abef8a0f043b6d2931d7e
+data/static/sfincs_base/qgis/sfincs_msk_200m.tif,SFINCS 200 m base grid (v1 block average),1893,2026-09-14T23:49:37Z,440b9efa03e4f6c744ed7ad40c4cd49b0ce3398f8a031653f7a5196998f12c4f
+data/static/sfincs_base/qgis/sfincs_obs_points.geojson,SFINCS 200 m base grid (v1 block average),2348,2026-09-14T23:49:37Z,a1170de22c61195e191e8ca53ce27863a76c789a89ac450f8c195132a0a81201
+data/static/sfincs_base/qgis/sfincs_src_points.geojson,SFINCS 200 m base grid (v1 block average),961,2026-09-14T23:49:37Z,85eb782e34a168fe3653c8f6c634ccea4d97ffb63d52bec496cd9ca0fbe1b655
+data/static/meta/audit_checksums.csv,"domain / terrain / boundary metadata, old-project audit, migration log",29291,2026-09-14T00:50:40Z,e7064c1b34490e025993d7ecfe0f2332b018d7a526456c31b0b5a723d96e72ea
+data/static/meta/audit_rasters.csv,"domain / terrain / boundary metadata, old-project audit, migration log",24605,2026-09-14T00:50:40Z,072b88b46debd24a8df83410ae796eba5c055af84e2633cf68ca436e7d30fbad
+data/static/meta/audit_tables.csv,"domain / terrain / boundary metadata, old-project audit, migration log",34860,2026-09-14T00:50:40Z,351c1a9097c4ff4180d1ca2dd7fccc99613c2592de880e9966342cab6ac9585d
+data/static/meta/audit_vectors.csv,"domain / terrain / boundary metadata, old-project audit, migration log",23236,2026-09-14T00:50:40Z,56e15248b13417c321abcf31bafc4b27d0df7e858a32d52231e4ed4db5c3afb8
+data/static/meta/boundaries.json,"domain / terrain / boundary metadata, old-project audit, migration log",2702,2026-09-14T23:49:10Z,fcac0e4de5ace53a368915ebc8589bb3581f57c27e06151d7508b0e510a477e4
+data/static/meta/migration_log_2026-09-14.csv,"domain / terrain / boundary metadata, old-project audit, migration log",7810,2026-09-14T23:47:12Z,16be4df1323ef6cc09e2ec777a6441c5f59a40e7d52cc2c9966e7f94fb16de1b
+data/static/meta/study_extent.json,"domain / terrain / boundary metadata, old-project audit, migration log",2594,2026-09-14T00:52:48Z,516d3e6705d9082977858c1f5a4dd7eaf0a9fe6dbaf38b2ebc11f1ed1b849e3f
+data/static/meta/terrain_60m.json,"domain / terrain / boundary metadata, old-project audit, migration log",2371,2026-09-14T12:48:18Z,f346a5fc78d0d795961fae4a27f823d91b7bd20a877b031a151d33b1e5ed9859
+data/static/meta/terrain_qc_boundaries.json,"domain / terrain / boundary metadata, old-project audit, migration log",15825,2026-09-14T02:52:29Z,c0719ae1ebc37ad5877dc197626c67808c79800558c3fc2a87102f1e7df3d4eb
+data/static/terrain/active_domain_mask_60m_26917.tif,shared terrain (60 m),7772,2026-09-14T23:49:10Z,f248d18298678845b6e86c176b271d2f550acb5f1b274c56cf06249000af09ee
+data/static/terrain/crm_60m_26917.tif,shared terrain (60 m),2008085,2026-09-14T12:48:17Z,7d8f0a1a80c32066deaff3eb1c81eed0c3f5396fc7c1ebb91c7f3173479769cf
+data/static/terrain/dem_usgs_60m_26917.tif,shared terrain (60 m),1706617,2026-09-14T12:48:17Z,489579d476f76de7621efb2fc5470c54ada5c2b6f5791cedd57129b7be270778
+data/static/terrain/topobathy_merged_60m_26917.tif,shared terrain (60 m),1923654,2026-09-14T12:48:17Z,0e0170731833845adf4aa27122ec4436c5a699068aaada26e8d5e8b697dc7a6f
+data/static/terrain/topobathy_merged_60m_26917.tif.aux.xml,shared terrain (60 m),508995,2026-09-14T14:16:54Z,4c24e997db8883bc5f5fec80b70653c466848bf365fa5d88480684c5bd8b6ff5
+data/static/terrain/topobathy_merged_60m_26917_active.tif,shared terrain (60 m),935614,2026-09-14T23:49:10Z,77d401afab81896c55c2d5bf8b98c213694c81e2af4cf690491d0f074908fb73
+data/static/terrain/topobathy_merged_60m_26917_huc10.tif,shared terrain (60 m),931873,2026-09-14T12:49:17Z,2927f736969b0fe759a6cd6d31d678eb129efa4b0ae5a01e3c97c1c13d1063e1
+data/static/terrain/topobathy_merged_60m_26917_huc10.tif.aux.xml,shared terrain (60 m),387,2026-09-14T14:16:54Z,62aa399434e3c1d6a07936d6e5a5b2b50f310bed71c525f03931673ce2c8898b
+data/static/interim/active_mask.npy,terrain intermediates,552628,2026-09-14T14:26:31Z,d0f35bb223445695314eac0ef4983513923843821fd6195e53c6d9d1070f5b14
+data/static/interim/connected_water_60m_26917.tif,terrain intermediates,12205,2026-09-14T02:52:29Z,223780362f876188d05163df93a830f6b49d70fbf695581b31f641cde74cbab6
+data/static/interim/crm60.npy,terrain intermediates,4420128,2026-09-14T12:48:18Z,8396984d3b4f66484426e912c8bce5934fb2fe71511d7c61eb6825ef6e18f5ed
+data/static/interim/dem60.npy,terrain intermediates,4420128,2026-09-14T12:48:18Z,e749c4ed02cc5081f85ce11478ede36ad1b31f6a9f52b303113989e394ee33b0
+data/static/interim/diff_dem_minus_crm_60m_26917.tif,terrain intermediates,2065357,2026-09-14T12:48:17Z,7561231e6c0b85301256b7a9121b7310f9df8eb55050b7eb4b084cd81a8bdf5e
+data/static/interim/huc10_union.npy,terrain intermediates,552628,2026-09-14T14:26:31Z,d0f35bb223445695314eac0ef4983513923843821fd6195e53c6d9d1070f5b14
+data/static/interim/merged60.npy,terrain intermediates,4420128,2026-09-14T12:48:18Z,8b308e4e184faefeac162e2dda8943ac9c9a9a6e3a5c0f891f9e18c5c524469b
+data/static/interim/sfincs200_MSK.npy,terrain intermediates,49853,2026-09-14T23:49:37Z,a602e4e9b8e9599b0081f4ea645091a95f3394c6a27f5cd5f604bf3cebb2ec60
+data/static/interim/sfincs200_WFRAC.npy,terrain intermediates,397928,2026-09-14T23:49:37Z,72b9895f8fbe1750eca41fe4135dcbb0c5a6dcc960d0ac159b62aa7703d0665c
+data/static/interim/sfincs200_Z.npy,terrain intermediates,397928,2026-09-14T23:49:37Z,7d103985d05c8ed6f629df264b400bf245f1d85b358b08cd9c6a23110ee464b3
+data/static/interim/sfincs200_Zmin.npy,terrain intermediates,397928,2026-09-14T23:49:37Z,e57c4967301fca425fa660d175975ea60ae54a8a724bddcee824f92ba2049adc
+data/static/interim/source_flag_60m_26917.tif,terrain intermediates,11982,2026-09-14T12:48:17Z,1357729f44b4213a14e3e41e232e3afb9bf6930f1f91cf6d4d8562239c18fa41
+data/static/interim/uncovered_edge.npy,terrain intermediates,552628,2026-09-14T23:49:10Z,796a3afc6e17fd3bc5018a379e052023eb13a15c63e3084e2a175601ad9567be
+data/static/gis/active_domain.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),56967,2026-09-14T23:49:10Z,28a13b5b7f79551f61fd82a76d2939393c1bcd24fcb1515e1d08c337a6602e53
+data/static/gis/bnd_downstream_waterlevel.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),11677,2026-09-14T23:49:10Z,ff08dbd4aebe0579467d6d24a9b7b9ead89622bef2a3b07801488aaa1bae58a1
+data/static/gis/bnd_upstream_discharge.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),1813,2026-09-14T23:49:10Z,375b7ae71d8ab6374037b5295112b0aa8e6be962f560064abf2cf3f7bb4be98b
+data/static/gis/huc10.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),81176,2026-09-14T13:41:05Z,5566c68d100b7d467fc1857d990eeea1f5ac731ea6d2d6d20784c01954f552c8
+data/static/gis/huc10_extend_parts.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),81269,2026-09-14T23:49:10Z,f11f337b2f55d4a37acdcf3d990ff37d855cb3ef4eb85d3325a540c9531392f2
+data/static/gis/huc10_rings_26917.json,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),135310,2026-09-14T00:52:48Z,7a31af74bb7cc7c1ec848068d16771a0a3f21f40a974566ec4329e44f4a961d3
+data/static/gis/stations_forcing.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),934,2026-09-14T12:49:17Z,de60ae56f1015489e05134ad49aa1d746b94cd939cb1c26cc2299ea4676d85e2
+data/static/gis/study_rectangle.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),651,2026-09-14T02:52:29Z,e7146a5f80aac6f6f30c2ff524345ae35ec66c3b01da1ae6fb020c3bc745db68
+data/static/gis/my_qgis/bnd_downstream_waterlevel.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),15196,2026-09-14T18:38:39Z,c0833dd95a56d8c2dff52cf57b3e922b4779a5acd6f7a50baf7804edd0edc943
+data/static/gis/my_qgis/bnd_downstream_waterlevel.qmd,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),3256,2026-09-14T18:38:39Z,5b35997bc30a3805fdb48dc7f30514844dfea39ecc8cdbac3a49344f73d5940c
+data/static/gis/my_qgis/bnd_upstream_discharge.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),1823,2026-09-14T14:09:07Z,db81e83473a5806939a78fe39c12e48de1a6b10e8febfdbeb24cdc339261c188
+data/static/gis/my_qgis/bnd_upstream_discharge.qmd,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),3256,2026-09-14T14:09:07Z,5b35997bc30a3805fdb48dc7f30514844dfea39ecc8cdbac3a49344f73d5940c
+data/static/gis/my_qgis/huc10_domain_edit.qgz,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),31512,2026-09-14T14:16:51Z,367090f27ea23eac80f7ac722ee56cabd93dcdb22fc64a0c6eb131f3d6d9f037
+data/static/gis/my_qgis/huc10_extend.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),81269,2026-09-14T14:12:16Z,f11f337b2f55d4a37acdcf3d990ff37d855cb3ef4eb85d3325a540c9531392f2
+data/static/gis/my_qgis/huc10_extend.qmd,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),3256,2026-09-14T14:12:16Z,5b35997bc30a3805fdb48dc7f30514844dfea39ecc8cdbac3a49344f73d5940c
+data/static/gis/my_qgis/huc10_extend_active.geojson,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),56967,2026-09-14T14:15:56Z,28a13b5b7f79551f61fd82a76d2939393c1bcd24fcb1515e1d08c337a6602e53
+data/static/gis/my_qgis/huc10_extend_active.qmd,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),2303,2026-09-14T14:15:56Z,b932a17c3fd1ba25751b2f97cf15e7093ed96229b229268bab5e9637c38ba57e
+data/static/gis/my_qgis/topobathy_merged_60m_huc10_extend.tiff,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),2100230,2026-09-14T14:10:37Z,7725ee1f42c1e84235eceba57296c63b837b59bbd4e6c0cbdf287d547ff11784
+data/static/gis/my_qgis/topobathy_merged_60m_huc10_extend.tiff.aux.xml,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),437,2026-09-14T14:16:54Z,ed2fa9e24c543ce5506ef55d26c3fad982fbb8cdf8038ecd73a11879eb1f28be
+data/static/gis/my_qgis/topobathy_merged_60m_huc10_extend.tiff.tif.aux.xml,shared GIS (model domain / boundaries / HUC10 / user QGIS originals),437,2026-09-14T14:16:54Z,ed2fa9e24c543ce5506ef55d26c3fad982fbb8cdf8038ecd73a11879eb1f28be
+runs/irma/baseline/check_his_mayport.png,Irma simulation runs,103879,2026-09-14T19:44:43Z,2668b66cf945a05f1cba47fd401af5ba707dd9c8b0d853195c12b0818ad3d952
+runs/irma/baseline/check_run.py,Irma simulation runs,4078,2026-09-14T19:42:08Z,dbda3a0708b797800126296a4ad786283dde81a59ac31ecc777a56eba5541567
+runs/irma/baseline/check_zsmax.png,Irma simulation runs,71149,2026-09-14T19:44:43Z,d5e103c0d16046b3fa5882e4b2f5e70b17003e29eb4dcea2a177538f536c7d31
+runs/irma/baseline/docker_stdout.txt,Irma simulation runs,3338,2026-09-14T19:44:40Z,2551971d92edf8e16a4997e434f9395de33160a60b640118fb797c850d5e8f56
+runs/irma/baseline/obs_validation_stats.csv,Irma simulation runs,1539,2026-09-14T20:23:36Z,3f518af5d16d3db3a523401db224787d110c4a63ed24b568805cc8f691a49d8c
+runs/irma/baseline/sfincs.ampr,Irma simulation runs,2432220,2026-09-14T19:42:08Z,5656a674b2edbbc050abbaafef8cf491c8fc5a29298aeefbcd33b80beaac3b37
+runs/irma/baseline/sfincs.bnd,Irma simulation runs,324,2026-09-14T19:42:08Z,5264dff8132dea9e7eba36c39adbe9294a0e9ce4891a619f69c05109bc35761e
+runs/irma/baseline/sfincs.bzs,Irma simulation runs,285719,2026-09-14T19:42:08Z,4f18704b53c12b5cb46a17e5397434b4a0ec225be163e2bfe282bae712ed34c3
+runs/irma/baseline/sfincs.dep,Irma simulation runs,97868,2026-09-14T19:42:08Z,7339b86f5bf7a8b8a7f0d5b5d404948c908869cf7f566dffb4811c1643b84049
+runs/irma/baseline/sfincs.dis,Irma simulation runs,47740,2026-09-14T19:42:08Z,190aa063722f435304338a660b23741da7aafa4c99b069a2610eff91873de587
+runs/irma/baseline/sfincs.ind,Irma simulation runs,97872,2026-09-14T19:42:08Z,eb7f684e251eced32589063da14ed85344ff4aad0874270fff1b3f9ce595b0b6
+runs/irma/baseline/sfincs.inp,Irma simulation runs,1014,2026-09-14T19:42:08Z,a2f133d120a0ba48b09dd69e41aa4f3ba63d66039895ce573d3e2c862d6413e5
+runs/irma/baseline/sfincs.log,Irma simulation runs,4739,2026-09-14T19:44:40Z,39e2431a1e10ee18403c67178a6c95d908624ea3574d0d0c84cd03b57dab70b2
+runs/irma/baseline/sfincs.msk,Irma simulation runs,24467,2026-09-14T19:42:08Z,1f44112a7b35083627cf4de20d66f588f5cd8d30f8d4c24df31cdd03c824ad9f
+runs/irma/baseline/sfincs.obs,Irma simulation runs,348,2026-09-14T19:42:08Z,f4451030cdfc39abb95303368e06c2778aa4ec9984a7365ae320af00011d3487
+runs/irma/baseline/sfincs.precip,Irma simulation runs,4820,2026-09-14T19:42:08Z,b94f1a650c8ea86a0c59ad1a61b3d7f057fb2760c8078cb9dbbaf8bc29fb373c
+runs/irma/baseline/sfincs.src,Irma simulation runs,108,2026-09-14T19:42:08Z,53a524477e914b7b125aa0bafdd5cd989472f5a0da66fe96759822ec5a414e67
+runs/irma/baseline/sfincs_his.nc,Irma simulation runs,336465,2026-09-14T19:44:40Z,39fcb69932d0262d9242c9e33190191779093431c229d25139cc99c8c786acf7
+runs/irma/baseline/sfincs_map.nc,Irma simulation runs,21110277,2026-09-14T19:44:40Z,2d937947c5d109ebb313968c55e9a06b5efaeb5964cfcd6cee893c627dac083f

@@ -1,0 +1,583 @@
+{
+ "generated_utc": "2026-09-15",
+ "method": "Called the NOAA CO-OPS API (water_level/predictions, 8720218, NAVD, metric, gmt, 6 min), USGS IV (nwis.waterservices.usgs.gov, 02246500, 00060) and IEM directory listings (mtarchive MRMS, mesonet stage4) directly from the built-in browser; check interval = suggested window +1 day on each side; residual = observed − predicted (computed on the fly, not saved); coverage check only, no event data downloaded. USGS values in cfs; NOAA in m NAVD88.",
+ "new_this_round": [
+  "frances2004",
+  "jeanne2004",
+  "fay2008",
+  "beryl2012",
+  "debby2012",
+  "hermine2016",
+  "isaias2020",
+  "eta2020",
+  "imelda2025",
+  "floyd1999 (no NOAA 6min/hourly data, no gridded rainfall)"
+ ],
+ "rain_products": {
+  "2002-2014": "NCEP Stage IV 01h(IEM mesonet archive, 4 km)",
+  "2015-06..2020-10": "MRMS GaugeCorr_QPE_01H",
+  "2020-10..": "MRMS MultiSensor_QPE_01H_Pass2",
+  "2001-2011 alt": "MRMS reanalysis PrecipRate (radar-only 5 min, not recommended)",
+  "2012-2014 alt": "NMQ Q2 tile2 q2rad_hsr_nc (radar-only, not recommended)"
+ },
+ "usgs_qualifier_note": "1999/2004 records carry [91] = 'no matching qualifier' (meaningless); all are grade A",
+ "events": [
+  {
+   "name": "Matthew",
+   "year": 2016,
+   "d": "matthew",
+   "w": [
+    "2016-10-04",
+    "2016-10-14"
+   ],
+   "peak": "10-07 19–21Z storm-surge peak (closest approach evening of 10-07)",
+   "wl": 1.592,
+   "twl": "10-07 18:54",
+   "res": 1.435,
+   "tres": "10-07 20:42",
+   "h05": 42.5,
+   "h1": 5.1,
+   "qmin": -274000,
+   "qmax": 211000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 8,
+   "rain": "MRMS GaugeCorr_QPE_01H (same as Irma)",
+   "rg": "10-11 missing 2 h (4 days after peak; exact hours to be confirmed on download)",
+   "ev": "NWS JAX PSH report; Mayport observed 1.59 m, highest before 2017; widespread flooding along the St. Johns River",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/Hrcn_Matthew_PSH-10-27-2016.pdf",
+    "https://www.nhc.noaa.gov/data/tcr/AL142016_Matthew.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "MRMS 2 h small gap in event segment"
+  },
+  {
+   "name": "Ian",
+   "year": 2022,
+   "d": "ian",
+   "w": [
+    "2022-09-26",
+    "2022-10-06"
+   ],
+   "peak": "09-29 16–20Z (exits to sea from NE Florida after crossing the peninsula)",
+   "wl": 1.356,
+   "twl": "09-29 16:24",
+   "res": 1.132,
+   "tres": "09-29 19:54",
+   "h05": 34.1,
+   "h1": 5.6,
+   "qmin": -228000,
+   "qmax": 233000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 0,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "09-28 missing 1 h (event segment, 1 day before peak); 09-25 missing 1 h (extension segment)",
+   "ev": "NWS JAX PSH report; Mayport residual 1.13 m, >1 m for 5.6 h",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSH_Ian%20by%20JAX.pdf",
+    "https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "MRMS 1 h small gap in event segment"
+  },
+  {
+   "name": "Milton",
+   "year": 2024,
+   "d": "milton",
+   "w": [
+    "2024-10-07",
+    "2024-10-17"
+   ],
+   "peak": "10-10 10–19Z (crosses the peninsula; NE-wind setup in NE Florida)",
+   "wl": 1.182,
+   "twl": "10-10 19:00",
+   "res": 1.05,
+   "tres": "10-10 09:48",
+   "h05": 34.6,
+   "h1": 1.9,
+   "qmin": -213000,
+   "qmax": 207000,
+   "qg": "10-15 14:15->15:15 (60 min, 5 days after peak)",
+   "qest": "none",
+   "flag": 0,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NWS JAX PSH report; Mayport residual 1.05 m",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSHJAX_2024AL14_Milton_Summary.pdf",
+    "https://www.nhc.noaa.gov/data/tcr/AL142024_Milton.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "USGS 60 min small gap in recession segment"
+  },
+  {
+   "name": "Dorian",
+   "year": 2019,
+   "d": "dorian",
+   "w": [
+    "2019-09-01",
+    "2019-09-11"
+   ],
+   "peak": "09-04 18–21Z (moves north parallel to the coast, nearshore)",
+   "wl": 1.239,
+   "twl": "09-04 18:00",
+   "res": 0.933,
+   "tres": "09-04 21:06",
+   "h05": 16.6,
+   "h1": 0,
+   "qmin": -206000,
+   "qmax": 188000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 5,
+   "rain": "MRMS GaugeCorr_QPE_01H (same as Irma)",
+   "rg": "none (12 days complete)",
+   "ev": "no NWS JAX post-event report; NHC TCR; Mayport residual 0.93 m",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL052019_Dorian.pdf"
+   ],
+   "grade": "verified compliant",
+   "note": "most complete data; moderate local impact, evidence only NHC TCR + station data"
+  },
+  {
+   "name": "Beryl",
+   "year": 2012,
+   "d": "beryl",
+   "w": [
+    "2012-05-24",
+    "2012-06-03"
+   ],
+   "peak": "05-28 04Z landfall at Jacksonville Beach (65 mph)",
+   "wl": 0.95,
+   "twl": "06-05 02:00 (outside window)",
+   "res": 0.932,
+   "tres": "05-27 23:24",
+   "h05": 19.9,
+   "h1": 0,
+   "qmin": -203000,
+   "qmax": 174000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 6,
+   "rain": "NCEP Stage IV 01h (4 km, RFC gauge-corrected; IEM archive)",
+   "rg": "none (13 days, 24 01h files per day)",
+   "ev": "direct landfall on the study area; Hogans Creek flash flood, Fernandina surge 1.14 m, 38,000 customers without power (Wikipedia/NHC)",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL022012_Beryl.pdf",
+    "https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(2012)"
+   ],
+   "grade": "pending user confirmation",
+   "note": "rainfall product is Stage IV (not MRMS, 4 km)"
+  },
+  {
+   "name": "Debby",
+   "year": 2012,
+   "d": "debby2012",
+   "w": [
+    "2012-06-21",
+    "2012-07-01"
+   ],
+   "peak": "06-24–26 persistent heavy rain, 06-27 12Z surge peak; Black Creek record flood",
+   "wl": 0.974,
+   "twl": "06-27 19:48",
+   "res": 0.838,
+   "tres": "06-27 12:42",
+   "h05": 22.1,
+   "h1": 0,
+   "qmin": -182000,
+   "qmax": 176000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 6,
+   "rain": "NCEP Stage IV 01h (4 km; IEM archive)",
+   "rg": "none",
+   "ev": "Clay County Black Creek 587 homes flooded, St. Marys River record stage, Orange Park street flooding (Wikipedia/NHC)",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL042012_Debby.pdf",
+    "https://en.wikipedia.org/wiki/Tropical_Storm_Debby_(2012)"
+   ],
+   "grade": "pending user confirmation",
+   "note": "rainfall-dominated event; Stage IV; heavy rain starts 06-24, spin-up segment (06-21–24) nearly dry"
+  },
+  {
+   "name": "Jeanne",
+   "year": 2004,
+   "d": "jeanne",
+   "w": [
+    "2004-09-23",
+    "2004-10-03"
+   ],
+   "peak": "09-27 00–03Z (moves north from NE Florida after crossing the peninsula)",
+   "wl": 1.385,
+   "twl": "09-27 00:36",
+   "res": 0.832,
+   "tres": "09-27 03:00",
+   "h05": 13.3,
+   "h1": 0,
+   "qmin": -193000,
+   "qmax": 217000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 4,
+   "rain": "NCEP Stage IV 01h (4 km; IEM archive)",
+   "rg": "none",
+   "ev": "Mayport observed 1.39 m; 4 tornadoes in St. Johns County; 1 death in Clay County (Wikipedia/NHC)",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL112004_Jeanne.pdf",
+    "https://en.wikipedia.org/wiki/Hurricane_Jeanne"
+   ],
+   "grade": "pending user confirmation",
+   "note": "Stage IV; 4 NOAA quality-flagged records to be listed"
+  },
+  {
+   "name": "Frances",
+   "year": 2004,
+   "d": "frances",
+   "w": [
+    "2004-09-02",
+    "2004-09-12"
+   ],
+   "peak": "09-05 18–23Z (slowly crosses the peninsula)",
+   "wl": 0.916,
+   "twl": "09-05 17:54",
+   "res": 0.733,
+   "tres": "09-05 23:24",
+   "h05": 10.5,
+   "h1": 0,
+   "qmin": -194000,
+   "qmax": 187000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 0,
+   "rain": "NCEP Stage IV 01h (4 km; IEM archive)",
+   "rg": "none",
+   "ev": "NHC TCR; NE Florida impact mainly prolonged rain and wind",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL062004_Frances.pdf"
+   ],
+   "grade": "pending user confirmation",
+   "note": "Stage IV; 3 weeks apart from Jeanne, elevated river baseflow"
+  },
+  {
+   "name": "Eta",
+   "year": 2020,
+   "d": "eta",
+   "w": [
+    "2020-11-08",
+    "2020-11-18"
+   ],
+   "peak": "11-12 landfall at Cedar Key, exits to sea near Jacksonville the same day; 11-15 13Z water-level peak",
+   "wl": 1.163,
+   "twl": "11-15 13:24",
+   "res": 0.599,
+   "tres": "11-09 12:00",
+   "h05": 7.9,
+   "h1": 0,
+   "qmin": -214000,
+   "qmax": 194000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 2,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NHC TCR; NE Florida rainfall; Mayport residual 0.6 m",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL292020_Eta.pdf"
+   ],
+   "grade": "verified compliant",
+   "note": "local impact rather weak"
+  },
+  {
+   "name": "Isaias",
+   "year": 2020,
+   "d": "isaias",
+   "w": [
+    "2020-07-31",
+    "2020-08-10"
+   ],
+   "peak": "08-03 16Z residual peak (moves north parallel to the coast, offshore)",
+   "wl": 1.036,
+   "twl": "08-04 01:54",
+   "res": 0.609,
+   "tres": "08-03 16:18",
+   "h05": 4.2,
+   "h1": 0,
+   "qmin": -234000,
+   "qmax": 187000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 0,
+   "rain": "MRMS GaugeCorr_QPE_01H (same as Irma)",
+   "rg": "none",
+   "ev": "NHC TCR; passed offshore, weak impact",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL092020_Isaias.pdf"
+   ],
+   "grade": "verified compliant",
+   "note": "weak local impact"
+  },
+  {
+   "name": "Imelda",
+   "year": 2025,
+   "d": "imelda",
+   "w": [
+    "2025-09-29",
+    "2025-10-09"
+   ],
+   "peak": "no landfall, turned east offshore 09-30–10-03; 10-03 14Z residual peak",
+   "wl": 1.17,
+   "twl": "10-04 23:12",
+   "res": 0.677,
+   "tres": "10-03 14:00",
+   "h05": 52.6,
+   "h1": 0,
+   "qmin": -182000,
+   "qmax": 182000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 1,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "09-25->10-07 complete; 10-08–09 to be checked",
+   "ev": "no NWS JAX post-event report; Wikipedia records no NE Florida impact; residual >0.5 m for 52.6 h may include spring tide + Humberto swell",
+   "links": [
+    "https://en.wikipedia.org/wiki/Hurricane_Imelda_(2025)"
+   ],
+   "grade": "pending user confirmation",
+   "note": "insufficient impact evidence"
+  },
+  {
+   "name": "Helene",
+   "year": 2024,
+   "d": "helene",
+   "w": [
+    "2024-09-23",
+    "2024-10-03"
+   ],
+   "peak": "09-26–27 (Big Bend landfall, study area to the east)",
+   "wl": 1.095,
+   "twl": "09-22 16:54 (outside window)",
+   "res": 0.575,
+   "tres": "09-27 02:48",
+   "h05": 1.4,
+   "h1": 0,
+   "qmin": -198000,
+   "qmax": 201000,
+   "qg": "none",
+   "qest": "about 60 records (15 h) with e (estimated) flag",
+   "flag": 2,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NWS JAX PSH report",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSHJAX_2024AL09_Helene_Summary.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "weak local impact; USGS estimated segments to be listed"
+  },
+  {
+   "name": "Idalia",
+   "year": 2023,
+   "d": "idalia",
+   "w": [
+    "2023-08-27",
+    "2023-09-06"
+   ],
+   "peak": "08-30 (Big Bend landfall)",
+   "wl": 1.055,
+   "twl": "09-02 03:06",
+   "res": 0.377,
+   "tres": "09-02 05:48",
+   "h05": 0,
+   "h1": 0,
+   "qmin": -225000,
+   "qmax": 194000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 1,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NWS JAX PSH report",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSHJAX_2023AL10_Idalia_Summary.pdf"
+   ],
+   "grade": "verified compliant",
+   "note": "weak local impact"
+  },
+  {
+   "name": "Debby",
+   "year": 2024,
+   "d": "debby2024",
+   "w": [
+    "2024-08-02",
+    "2024-08-12"
+   ],
+   "peak": "08-05 (Big Bend landfall)",
+   "wl": 0.763,
+   "twl": "08-05 02:18",
+   "res": 0.334,
+   "tres": "08-05 16:00",
+   "h05": 0,
+   "h1": 0,
+   "qmin": -170000,
+   "qmax": 170000,
+   "qg": "none",
+   "qest": "about 60 records (15 h) with e (estimated) flag",
+   "flag": 1,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NWS JAX PSH report",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSHJAX_2024AL04_Debby_Summary.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "weak local impact"
+  },
+  {
+   "name": "Elsa",
+   "year": 2021,
+   "d": "elsa",
+   "w": [
+    "2021-07-04",
+    "2021-07-14"
+   ],
+   "peak": "07-07 (Big Bend landfall)",
+   "wl": 0.78,
+   "twl": "07-13 03:54",
+   "res": 0.314,
+   "tres": "07-06 06:24",
+   "h05": 0,
+   "h1": 0,
+   "qmin": -210000,
+   "qmax": 166000,
+   "qg": "07-08 07:45→08:15(30 min);14:00→14:45(45 min)",
+   "qest": "none",
+   "flag": 3,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "07-07 missing 1 h",
+   "ev": "NWS JAX PSH report",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSHJAX_Elsa.pdf"
+   ],
+   "grade": "conditionally usable",
+   "note": "weak local impact"
+  },
+  {
+   "name": "Hermine",
+   "year": 2016,
+   "d": "hermine",
+   "w": [
+    "2016-08-29",
+    "2016-09-08"
+   ],
+   "peak": "09-02 (Big Bend landfall)",
+   "wl": 0.921,
+   "twl": "08-31 00:36",
+   "res": 0.227,
+   "tres": "08-30 03:36",
+   "h05": 0,
+   "h1": 0,
+   "qmin": -191000,
+   "qmax": 181000,
+   "qg": "none",
+   "qest": "none",
+   "flag": 7,
+   "rain": "MRMS GaugeCorr_QPE_01H",
+   "rg": "none",
+   "ev": "NHC TCR",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL092016_Hermine.pdf"
+   ],
+   "grade": "verified compliant",
+   "note": "very weak local impact, not recommended"
+  },
+  {
+   "name": "Nicole",
+   "year": 2022,
+   "d": "nicole",
+   "w": [
+    "2022-11-07",
+    "2022-11-17"
+   ],
+   "peak": "11-10 06–15Z (moves north after Vero Beach landfall)",
+   "wl": 1.688,
+   "twl": "11-10 15:06",
+   "res": 1.142,
+   "tres": "11-10 06:18",
+   "h05": 44.1,
+   "h1": 6.4,
+   "qmin": -235000,
+   "qmax": 208000,
+   "qg": "11-13 00:45->11-15 14:30 (61.75 h, 3–5 days after peak, still within the 7-day event segment)",
+   "qest": "none",
+   "flag": 25,
+   "rain": "MRMS MultiSensor_QPE_01H_Pass2",
+   "rg": "none",
+   "ev": "NWS JAX PSH report; Mayport 1.69 m, second only to Irma",
+   "links": [
+    "https://www.weather.gov/media/jax/TropicalEventSummary/PSH_Nicole%20Issued%20by%20JAX.pdf"
+   ],
+   "grade": "pending user confirmation",
+   "note": "strong impact but Acosta missing 61.75 h; cannot be generated with the current workflow without filling"
+  },
+  {
+   "name": "Fay",
+   "year": 2008,
+   "d": "fay",
+   "w": [
+    "2008-08-18",
+    "2008-08-28"
+   ],
+   "peak": "08-21–22 heavy rain in NE Florida",
+   "wl": 1.267,
+   "twl": "08-22 17:24",
+   "res": 0.888,
+   "tres": "08-22 09:12",
+   "h05": 30,
+   "h1": 0,
+   "qmin": -185000,
+   "qmax": 209000,
+   "qg": "08-18 04:45->08-23 05:00 (120 h, covers the entire peak period)",
+   "qest": "none",
+   "flag": 1,
+   "rain": "NCEP Stage IV 01h",
+   "rg": "none",
+   "ev": "NHC TCR",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf"
+   ],
+   "grade": "non-compliant",
+   "note": "Acosta missing 5 days in the key period"
+  },
+  {
+   "name": "Floyd",
+   "year": 1999,
+   "d": "floyd",
+   "w": [
+    "1999-09-12",
+    "1999-09-22"
+   ],
+   "peak": "09-15–16 passed nearshore",
+   "wl": null,
+   "twl": "",
+   "res": null,
+   "tres": "",
+   "h05": null,
+   "h1": null,
+   "qmin": -173000,
+   "qmax": 159000,
+   "qg": "none",
+   "qest": "none",
+   "flag": null,
+   "rain": "none (Stage IV from 2002, MRMS reanalysis from 2001)",
+   "rg": "—",
+   "ev": "—",
+   "links": [
+    "https://www.nhc.noaa.gov/data/tcr/1999floyd.html"
+   ],
+   "grade": "non-compliant",
+   "note": "Mayport has no 6 min/hourly water level; no gridded rainfall"
+  }
+ ]
+}

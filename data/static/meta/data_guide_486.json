@@ -1,0 +1,1188 @@
+{
+ "generated": "2026-09-16 03:14 UTC",
+ "n_runs": 486,
+ "quick": false,
+ "all_map_241": true,
+ "all_t_last_240": true,
+ "all_dt_3600": true,
+ "zs_nan_active_total": 2273978060,
+ "zb_nan_active": [
+  0
+ ],
+ "n_active": [
+  24467
+ ],
+ "n_msk2": [
+  95
+ ],
+ "his": {
+  "n_time": [
+   1441
+  ],
+  "dt_s": [
+   600.0
+  ],
+  "n_station": [
+   9
+  ],
+  "zs_nan_total": 1400652
+ },
+ "bzs": {
+  "n": [
+   2401
+  ],
+  "dt_s": [
+   360.0
+  ],
+  "ncol": [
+   12
+  ],
+  "nan": 0
+ },
+ "dis": {
+  "n": [
+   868,
+   961
+  ],
+  "dt_s": [
+   900.0
+  ],
+  "ncol": [
+   4
+  ],
+  "nan": 0
+ },
+ "ampr": {
+  "n": [
+   241
+  ],
+  "dt_s": [
+   1.0
+  ],
+  "shape": [
+   "42×53"
+  ],
+  "nan": 0,
+  "neg": 0,
+  "active_outside": 0
+ },
+ "cumprcp": {
+  "has": 486,
+  "all_nan": 480
+ },
+ "zsmax": 6,
+ "rain_interp_hours_by_event": {
+  "irma": 0,
+  "matthew": 0,
+  "ian": 3,
+  "milton": 0,
+  "dorian": 0,
+  "beryl": 0
+ },
+ "map_vars": [
+  {
+   "name": "inp",
+   "dims": "",
+   "dtype": "int32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "x",
+   "dims": "n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "face_x"
+  },
+  {
+   "name": "y",
+   "dims": "n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "face_y"
+  },
+  {
+   "name": "corner_x",
+   "dims": "corner_n(196)×corner_m(256)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "corner_x"
+  },
+  {
+   "name": "corner_y",
+   "dims": "corner_n(196)×corner_m(256)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "corner_y"
+  },
+  {
+   "name": "crs",
+   "dims": "",
+   "dtype": "int32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "sfincsgrid",
+   "dims": "",
+   "dtype": "int32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "msk",
+   "dims": "n(195)×m(255)",
+   "dtype": "int32",
+   "units": "-",
+   "long_name": "Active cells mask"
+  },
+  {
+   "name": "zb",
+   "dims": "n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Bed level above reference level"
+  },
+  {
+   "name": "time",
+   "dims": "time(241)",
+   "dtype": "float32",
+   "units": "seconds since 2012-05-22 00:00:00",
+   "long_name": "time_in_seconds_since_2012-05-22 00:00:00"
+  },
+  {
+   "name": "zs",
+   "dims": "time(241)×n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Water level"
+  },
+  {
+   "name": "h",
+   "dims": "time(241)×n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Water depth"
+  },
+  {
+   "name": "cumprcp",
+   "dims": "timemax(1)×n(195)×m(255)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Cumulative precipitation depth"
+  },
+  {
+   "name": "total_runtime",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "s",
+   "long_name": "Total model runtime (s)"
+  },
+  {
+   "name": "average_dt",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "s",
+   "long_name": "Average model time step (s)"
+  },
+  {
+   "name": "status",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "-",
+   "long_name": "status of SFINCS simulation - 0 is no error"
+  }
+ ],
+ "his_vars": [
+  {
+   "name": "inp",
+   "dims": "",
+   "dtype": "int32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "station_id",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "station_name",
+   "dims": "stations(9)×pointnamelength(256)",
+   "dtype": "|S1",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "station_x",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "original_x_coordinate_of_station"
+  },
+  {
+   "name": "station_y",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "original_y_coordinate_of_station"
+  },
+  {
+   "name": "point_x",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "point_x"
+  },
+  {
+   "name": "point_y",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "point_y"
+  },
+  {
+   "name": "crs",
+   "dims": "",
+   "dtype": "int32",
+   "units": "",
+   "long_name": ""
+  },
+  {
+   "name": "point_zb",
+   "dims": "stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Bed level above reference level"
+  },
+  {
+   "name": "time",
+   "dims": "time(1441)",
+   "dtype": "float32",
+   "units": "seconds since 2012-05-22 00:00:00",
+   "long_name": "time_in_seconds_since_2012-05-22 00:00:00"
+  },
+  {
+   "name": "point_zs",
+   "dims": "time(1441)×stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Water level"
+  },
+  {
+   "name": "point_h",
+   "dims": "time(1441)×stations(9)",
+   "dtype": "float32",
+   "units": "m",
+   "long_name": "Water depth"
+  },
+  {
+   "name": "total_runtime",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "s",
+   "long_name": "Total model runtime (s)"
+  },
+  {
+   "name": "average_dt",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "s",
+   "long_name": "Average model time step (s)"
+  },
+  {
+   "name": "status",
+   "dims": "runtime(1)",
+   "dtype": "float32",
+   "units": "-",
+   "long_name": "status of SFINCS simulation - 0 is no error"
+  }
+ ],
+ "map_attrs": {
+  "Conventions": "CF-1.8 SGRID-0.3",
+  "Build-Revision-Date-Netcdf-library": "4.8.1 of Sep 29 2021 09:36:14 $",
+  "Producer": "SFINCS model: Super-Fast INundation of CoastS",
+  "Build-Revision": "$Rev: v2.4.2-alpha Galibier+",
+  "Build-Date": "$Date: 2026-09-08",
+  "title": "SFINCS map netcdf output"
+ },
+ "extra_vars_dtmaxout3600": [
+  "timemax",
+  "zsmax",
+  "hmax"
+ ],
+ "windows": [
+  {
+   "event": "irma",
+   "window": "2017-09-06 00:00 → 2017-09-16 00:00",
+   "spinup_until": "2017-09-09 00:00"
+  },
+  {
+   "event": "matthew",
+   "window": "2016-10-01 00:00 → 2016-10-11 00:00",
+   "spinup_until": "2016-10-04 00:00",
+   "window_quality": {
+    "event": "matthew",
+    "name": "Matthew",
+    "center_utc": "2016-10-07",
+    "window": {
+     "T0": "2016-10-01 00:00:00+00:00",
+     "spinup_end": "2016-10-04 00:00:00+00:00",
+     "T1": "2016-10-11 00:00:00+00:00",
+     "n_hours": 240,
+     "spinup_hours": 72,
+     "event_hours": 168,
+     "offset_days_vs_rule": 0,
+     "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+    },
+    "generated_utc": "2026-09-15T18:12:39Z",
+    "series": {
+     "mayport_waterlevel": {
+      "hours": 240,
+      "native_valid": 2400,
+      "native_expected": 2400,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 2,
+       "event": 1
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "time": "2016-10-07 19:00:00+00:00",
+       "value": 1.5577,
+       "segment": "event"
+      }
+     },
+     "acosta_discharge": {
+      "hours": 240,
+      "native_valid": 960,
+      "native_expected": 960,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "max_time": "2016-10-09 04:00:00+00:00",
+       "max": 5833.270397952001,
+       "max_segment": "event",
+       "min_time": "2016-10-07 19:00:00+00:00",
+       "min": -7298.667209088,
+       "min_segment": "event",
+       "qlow25h_max_time": "2016-10-08 17:00:00+00:00",
+       "qlow25h_max": 3866.5238179046405,
+       "qlow25h_segment": "event"
+      }
+     },
+     "rain": {
+      "product": "GaugeCorr_QPE_01H",
+      "grid_shape": [
+       40,
+       57
+      ],
+      "n_cells_in_rect": 1908,
+      "hours_missing": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_partial_cells": 0,
+      "cellhours_interp": 0,
+      "cellhours_unfillable": 0,
+      "longest_gap_h": 0,
+      "total_mm_areal": {
+       "spinup": 3.5830712811923755,
+       "event": 257.95660377625745
+      },
+      "peak": {
+       "time": "2016-10-07 19:00:00+00:00",
+       "areal_mm": 30.30628930322779,
+       "segment": "event"
+      },
+      "completeness_after_fill": 1.0,
+      "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+     }
+    },
+    "gaps": [],
+    "boundary_endpoints": {
+     "mayport": {
+      "records": 2401,
+      "expected": 2401,
+      "missing_records": 0,
+      "first": "2016-10-01 00:00:00+00:00",
+      "last": "2016-10-11 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "inferred_records": 8,
+      "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+     },
+     "acosta": {
+      "records": 961,
+      "expected": 961,
+      "missing_records": 0,
+      "first": "2016-10-01 00:00:00+00:00",
+      "last": "2016-10-11 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "estimated_records": 0,
+      "gaps_15min": []
+     }
+    },
+    "peaks_in_event_segment": {
+     "waterlevel": true,
+     "discharge_qlow25h": true,
+     "rain": true
+    }
+   },
+   "gaps_csv_columns": [
+    "series",
+    "start_utc",
+    "end_utc",
+    "hours",
+    "type",
+    "method",
+    "in_window",
+    "covers_peak",
+    "note"
+   ],
+   "gaps_rows": [
+    {
+     "series": "rain_GaugeCorr_QPE_01H",
+     "start_utc": "2016-10-11T16:00:00+00:00",
+     "end_utc": "2016-10-11T17:00:00+00:00",
+     "hours": 2,
+     "type": "whole hour missing",
+     "method": "linear interpolation in time",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "mm/h areal mean"
+    }
+   ]
+  },
+  {
+   "event": "ian",
+   "window": "2022-09-23 00:00 → 2022-10-03 00:00",
+   "spinup_until": "2022-09-26 00:00",
+   "window_quality": {
+    "event": "ian",
+    "name": "Ian",
+    "center_utc": "2022-09-29",
+    "window": {
+     "T0": "2022-09-23 00:00:00+00:00",
+     "spinup_end": "2022-09-26 00:00:00+00:00",
+     "T1": "2022-10-03 00:00:00+00:00",
+     "n_hours": 240,
+     "spinup_hours": 72,
+     "event_hours": 168,
+     "offset_days_vs_rule": 0,
+     "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+    },
+    "generated_utc": "2026-09-15T18:12:41Z",
+    "series": {
+     "mayport_waterlevel": {
+      "hours": 240,
+      "native_valid": 2400,
+      "native_expected": 2400,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "time": "2022-09-29 17:00:00+00:00",
+       "value": 1.3375,
+       "segment": "event"
+      }
+     },
+     "acosta_discharge": {
+      "hours": 240,
+      "native_valid": 960,
+      "native_expected": 960,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "max_time": "2022-10-01 14:00:00+00:00",
+       "max": 6300.49836672,
+       "max_segment": "event",
+       "min_time": "2022-09-29 18:00:00+00:00",
+       "min": -6208.468615296001,
+       "min_segment": "event",
+       "qlow25h_max_time": "2022-10-01 14:00:00+00:00",
+       "qlow25h_max": 2601.022706073216,
+       "qlow25h_segment": "event"
+      }
+     },
+     "rain": {
+      "product": "MultiSensor_QPE_01H_Pass2",
+      "grid_shape": [
+       40,
+       57
+      ],
+      "n_cells_in_rect": 1908,
+      "hours_missing": {
+       "spinup": 2,
+       "event": 1
+      },
+      "hours_partial_cells": 0,
+      "cellhours_interp": 5724,
+      "cellhours_unfillable": 0,
+      "longest_gap_h": 1,
+      "total_mm_areal": {
+       "spinup": 0.03663522000395276,
+       "event": 39.20332811097272
+      },
+      "peak": {
+       "time": "2022-09-29 12:00:00+00:00",
+       "areal_mm": 2.5474842768826327,
+       "segment": "event"
+      },
+      "completeness_after_fill": 1.0,
+      "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+     }
+    },
+    "gaps": [
+     {
+      "series": "rain",
+      "start": "2022-09-24 06:00:00+00:00",
+      "end": "2022-09-24 06:00:00+00:00",
+      "hours": 1,
+      "type": "missing file -> per-cell interpolation",
+      "segment": "spinup"
+     },
+     {
+      "series": "rain",
+      "start": "2022-09-25 21:00:00+00:00",
+      "end": "2022-09-25 21:00:00+00:00",
+      "hours": 1,
+      "type": "missing file -> per-cell interpolation",
+      "segment": "spinup"
+     },
+     {
+      "series": "rain",
+      "start": "2022-09-28 16:00:00+00:00",
+      "end": "2022-09-28 16:00:00+00:00",
+      "hours": 1,
+      "type": "missing file -> per-cell interpolation",
+      "segment": "event"
+     }
+    ],
+    "boundary_endpoints": {
+     "mayport": {
+      "records": 2401,
+      "expected": 2401,
+      "missing_records": 0,
+      "first": "2022-09-23 00:00:00+00:00",
+      "last": "2022-10-03 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "inferred_records": 0,
+      "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+     },
+     "acosta": {
+      "records": 961,
+      "expected": 961,
+      "missing_records": 0,
+      "first": "2022-09-23 00:00:00+00:00",
+      "last": "2022-10-03 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "estimated_records": 0,
+      "gaps_15min": []
+     }
+    },
+    "peaks_in_event_segment": {
+     "waterlevel": true,
+     "discharge_qlow25h": true,
+     "rain": true
+    }
+   },
+   "gaps_csv_columns": [
+    "series",
+    "start_utc",
+    "end_utc",
+    "hours",
+    "type",
+    "method",
+    "in_window",
+    "covers_peak",
+    "note"
+   ],
+   "gaps_rows": [
+    {
+     "series": "acosta_discharge",
+     "start_utc": "2022-10-06T15:00:00+00:00",
+     "end_utc": "2022-10-06T15:00:00+00:00",
+     "hours": 1,
+     "type": "whole hour missing",
+     "method": "linear interpolation in time",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "m3/s"
+    },
+    {
+     "series": "acosta_discharge",
+     "start_utc": "2022-10-06T16:00:00+00:00",
+     "end_utc": "2022-10-06T16:00:00+00:00",
+     "hours": 1,
+     "type": "insufficient samples within hour",
+     "method": "mean of available samples, no interpolation",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "m3/s"
+    },
+    {
+     "series": "rain_MultiSensor_QPE_01H_Pass2",
+     "start_utc": "2022-09-24T06:00:00+00:00",
+     "end_utc": "2022-09-24T06:00:00+00:00",
+     "hours": 1,
+     "type": "whole hour missing",
+     "method": "linear interpolation in time",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "mm/h areal mean"
+    },
+    {
+     "series": "rain_MultiSensor_QPE_01H_Pass2",
+     "start_utc": "2022-09-25T21:00:00+00:00",
+     "end_utc": "2022-09-25T21:00:00+00:00",
+     "hours": 1,
+     "type": "whole hour missing",
+     "method": "linear interpolation in time",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "mm/h areal mean"
+    },
+    {
+     "series": "rain_MultiSensor_QPE_01H_Pass2",
+     "start_utc": "2022-09-28T16:00:00+00:00",
+     "end_utc": "2022-09-28T16:00:00+00:00",
+     "hours": 1,
+     "type": "whole hour missing",
+     "method": "linear interpolation in time",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "mm/h areal mean"
+    }
+   ]
+  },
+  {
+   "event": "milton",
+   "window": "2024-10-05 00:00 → 2024-10-15 00:00",
+   "spinup_until": "2024-10-08 00:00",
+   "window_quality": {
+    "event": "milton",
+    "name": "Milton",
+    "center_utc": "2024-10-10",
+    "window": {
+     "T0": "2024-10-05 00:00:00+00:00",
+     "spinup_end": "2024-10-08 00:00:00+00:00",
+     "T1": "2024-10-15 00:00:00+00:00",
+     "n_hours": 240,
+     "spinup_hours": 72,
+     "event_hours": 168,
+     "offset_days_vs_rule": 1,
+     "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+    },
+    "generated_utc": "2026-09-15T18:12:42Z",
+    "series": {
+     "mayport_waterlevel": {
+      "hours": 240,
+      "native_valid": 2400,
+      "native_expected": 2400,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "time": "2024-10-10 20:00:00+00:00",
+       "value": 1.1647,
+       "segment": "event"
+      }
+     },
+     "acosta_discharge": {
+      "hours": 240,
+      "native_valid": 960,
+      "native_expected": 960,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "max_time": "2024-10-14 07:00:00+00:00",
+       "max": 5663.3693184,
+       "max_segment": "event",
+       "min_time": "2024-10-10 09:00:00+00:00",
+       "min": -5592.57720192,
+       "min_segment": "event",
+       "qlow25h_max_time": "2024-10-14 16:00:00+00:00",
+       "qlow25h_max": 2703.354395971639,
+       "qlow25h_segment": "event"
+      }
+     },
+     "rain": {
+      "product": "MultiSensor_QPE_01H_Pass2",
+      "grid_shape": [
+       40,
+       57
+      ],
+      "n_cells_in_rect": 1908,
+      "hours_missing": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_partial_cells": 0,
+      "cellhours_interp": 0,
+      "cellhours_unfillable": 0,
+      "longest_gap_h": 0,
+      "total_mm_areal": {
+       "spinup": 35.37190778542552,
+       "event": 47.97966458561754
+      },
+      "peak": {
+       "time": "2024-10-06 21:00:00+00:00",
+       "areal_mm": 7.094339625125036,
+       "segment": "spinup"
+      },
+      "completeness_after_fill": 1.0,
+      "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+     }
+    },
+    "gaps": [],
+    "boundary_endpoints": {
+     "mayport": {
+      "records": 2401,
+      "expected": 2401,
+      "missing_records": 0,
+      "first": "2024-10-05 00:00:00+00:00",
+      "last": "2024-10-15 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "inferred_records": 0,
+      "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+     },
+     "acosta": {
+      "records": 961,
+      "expected": 961,
+      "missing_records": 0,
+      "first": "2024-10-05 00:00:00+00:00",
+      "last": "2024-10-15 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "estimated_records": 0,
+      "gaps_15min": []
+     }
+    },
+    "peaks_in_event_segment": {
+     "waterlevel": true,
+     "discharge_qlow25h": true,
+     "rain": false
+    }
+   },
+   "gaps_csv_columns": [
+    "series",
+    "start_utc",
+    "end_utc",
+    "hours",
+    "type",
+    "method",
+    "in_window",
+    "covers_peak",
+    "note"
+   ],
+   "gaps_rows": [
+    {
+     "series": "acosta_discharge",
+     "start_utc": "2024-10-15T15:00:00+00:00",
+     "end_utc": "2024-10-15T16:00:00+00:00",
+     "hours": 2,
+     "type": "insufficient samples within hour",
+     "method": "mean of available samples, no interpolation",
+     "in_window": true,
+     "covers_peak": false,
+     "note": "m3/s"
+    }
+   ]
+  },
+  {
+   "event": "dorian",
+   "window": "2019-08-29 00:00 → 2019-09-08 00:00",
+   "spinup_until": "2019-09-01 00:00",
+   "window_quality": {
+    "event": "dorian",
+    "name": "Dorian",
+    "center_utc": "2019-09-04",
+    "window": {
+     "T0": "2019-08-29 00:00:00+00:00",
+     "spinup_end": "2019-09-01 00:00:00+00:00",
+     "T1": "2019-09-08 00:00:00+00:00",
+     "n_hours": 240,
+     "spinup_hours": 72,
+     "event_hours": 168,
+     "offset_days_vs_rule": 0,
+     "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+    },
+    "generated_utc": "2026-09-15T18:12:43Z",
+    "series": {
+     "mayport_waterlevel": {
+      "hours": 240,
+      "native_valid": 2400,
+      "native_expected": 2400,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "time": "2019-09-04 19:00:00+00:00",
+       "value": 1.2032,
+       "segment": "event"
+      }
+     },
+     "acosta_discharge": {
+      "hours": 240,
+      "native_valid": 960,
+      "native_expected": 960,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "max_time": "2019-09-06 04:00:00+00:00",
+       "max": 5189.062137984,
+       "max_segment": "event",
+       "min_time": "2019-08-29 02:00:00+00:00",
+       "min": -5670.448530048,
+       "min_segment": "spinup",
+       "qlow25h_max_time": "2019-09-06 02:00:00+00:00",
+       "qlow25h_max": 1993.8310774756762,
+       "qlow25h_segment": "event"
+      }
+     },
+     "rain": {
+      "product": "GaugeCorr_QPE_01H",
+      "grid_shape": [
+       40,
+       57
+      ],
+      "n_cells_in_rect": 1908,
+      "hours_missing": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_partial_cells": 0,
+      "cellhours_interp": 0,
+      "cellhours_unfillable": 0,
+      "longest_gap_h": 0,
+      "total_mm_areal": {
+       "spinup": 15.386897289981007,
+       "event": 41.81273589067676
+      },
+      "peak": {
+       "time": "2019-09-04 09:00:00+00:00",
+       "areal_mm": 4.664622640069301,
+       "segment": "event"
+      },
+      "completeness_after_fill": 1.0,
+      "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+     }
+    },
+    "gaps": [],
+    "boundary_endpoints": {
+     "mayport": {
+      "records": 2401,
+      "expected": 2401,
+      "missing_records": 0,
+      "first": "2019-08-29 00:00:00+00:00",
+      "last": "2019-09-08 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "inferred_records": 0,
+      "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+     },
+     "acosta": {
+      "records": 961,
+      "expected": 961,
+      "missing_records": 0,
+      "first": "2019-08-29 00:00:00+00:00",
+      "last": "2019-09-08 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "estimated_records": 0,
+      "gaps_15min": []
+     }
+    },
+    "peaks_in_event_segment": {
+     "waterlevel": true,
+     "discharge_qlow25h": true,
+     "rain": true
+    }
+   },
+   "gaps_csv_columns": [
+    "series",
+    "start_utc",
+    "end_utc",
+    "hours",
+    "type",
+    "method",
+    "in_window",
+    "covers_peak",
+    "note"
+   ],
+   "gaps_rows": []
+  },
+  {
+   "event": "beryl",
+   "window": "2012-05-22 00:00 → 2012-06-01 00:00",
+   "spinup_until": "2012-05-25 00:00",
+   "window_quality": {
+    "event": "beryl",
+    "name": "Beryl",
+    "center_utc": "2012-05-28",
+    "window": {
+     "T0": "2012-05-22 00:00:00+00:00",
+     "spinup_end": "2012-05-25 00:00:00+00:00",
+     "T1": "2012-06-01 00:00:00+00:00",
+     "n_hours": 240,
+     "spinup_hours": 72,
+     "event_hours": 168,
+     "offset_days_vs_rule": 0,
+     "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+    },
+    "generated_utc": "2026-09-15T18:12:44Z",
+    "series": {
+     "mayport_waterlevel": {
+      "hours": 240,
+      "native_valid": 2400,
+      "native_expected": 2400,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "time": "2012-05-28 07:00:00+00:00",
+       "value": 0.91,
+       "segment": "event"
+      }
+     },
+     "acosta_discharge": {
+      "hours": 240,
+      "native_valid": 960,
+      "native_expected": 960,
+      "native_coverage": 1.0,
+      "hours_full": 240,
+      "hours_partial": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_official_est": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_interp": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_unfillable": 0,
+      "longest_gap_h": 0,
+      "completeness_after_fill": 1.0,
+      "peak": {
+       "max_time": "2012-05-29 17:00:00+00:00",
+       "max": 4757.230227456,
+       "max_segment": "event",
+       "min_time": "2012-06-01 00:00:00+00:00",
+       "min": -4863.418402176,
+       "min_segment": "event",
+       "qlow25h_max_time": "2012-05-28 20:00:00+00:00",
+       "qlow25h_max": 1594.272131860198,
+       "qlow25h_segment": "event"
+      }
+     },
+     "rain": {
+      "product": "StageIV_01h",
+      "grid_shape": [
+       18,
+       20
+      ],
+      "n_cells_in_rect": 137,
+      "hours_missing": {
+       "spinup": 0,
+       "event": 0
+      },
+      "hours_partial_cells": 0,
+      "cellhours_interp": 0,
+      "cellhours_unfillable": 0,
+      "longest_gap_h": 0,
+      "total_mm_areal": {
+       "spinup": 0.7397810220446465,
+       "event": 121.56985469842262
+      },
+      "peak": {
+       "time": "2012-05-28 11:00:00+00:00",
+       "areal_mm": 9.192189743048953,
+       "segment": "event"
+      },
+      "completeness_after_fill": 1.0,
+      "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+     }
+    },
+    "gaps": [],
+    "boundary_endpoints": {
+     "mayport": {
+      "records": 2401,
+      "expected": 2401,
+      "missing_records": 0,
+      "first": "2012-05-22 00:00:00+00:00",
+      "last": "2012-06-01 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "inferred_records": 0,
+      "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+     },
+     "acosta": {
+      "records": 961,
+      "expected": 961,
+      "missing_records": 0,
+      "first": "2012-05-22 00:00:00+00:00",
+      "last": "2012-06-01 00:00:00+00:00",
+      "endpoint_T0_valid": true,
+      "endpoint_T1_valid": true,
+      "estimated_records": 0,
+      "gaps_15min": []
+     }
+    },
+    "peaks_in_event_segment": {
+     "waterlevel": true,
+     "discharge_qlow25h": true,
+     "rain": true
+    }
+   },
+   "gaps_csv_columns": [
+    "series",
+    "start_utc",
+    "end_utc",
+    "hours",
+    "type",
+    "method",
+    "in_window",
+    "covers_peak",
+    "note"
+   ],
+   "gaps_rows": []
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# Core dependencies (generated from imports; versions are those used in development)
+numpy>=2.0
+pandas>=2.0
+xarray>=2024.1
+netCDF4>=1.6
+matplotlib>=3.8
+requests>=2.31
+Pillow>=10.0
+torch>=2.2
+# Colab notebooks additionally use google.colab and IPython (preinstalled on Colab).
+# SFINCS itself runs in Docker: deltares/sfincs-cpu

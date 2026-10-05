@@ -1,0 +1,1472 @@
+{
+ "generated_utc": "2026-09-14T23:49:36Z",
+ "window_utc": [
+  "2017-09-06 00:00:00+00:00",
+  "2017-09-16 00:00:00+00:00"
+ ],
+ "n_hour_labels": 240,
+ "label_convention": "label T denotes the interval [T-1h, T), left-closed right-open; the hourly value is the arithmetic mean of instantaneous records in the interval, not the instantaneous value at T",
+ "spinup": [
+  "2017-09-06 01:00:00+00:00",
+  "2017-09-09 00:00:00+00:00"
+ ],
+ "event": [
+  "2017-09-09 01:00:00+00:00",
+  "2017-09-16 00:00:00+00:00"
+ ],
+ "no_gapfill": "this script does not fill, interpolate, smooth or remove outliers",
+ "series": {
+  "mayport_waterlevel": {
+   "station": "NOAA CO-OPS 8720218 Mayport (Bar Pilots Dock)",
+   "lon": -81.42789,
+   "lat": 30.398167,
+   "product": "water_level (observed total water level, including astronomical tide and meteorological surge; not a tide prediction)",
+   "native_step_min": 6,
+   "native_records_in_window": 2401,
+   "native_expected": 2401,
+   "datum": "NAVD88",
+   "units": "m",
+   "timezone": "UTC",
+   "hourly_rows": 240,
+   "hours_complete": 240,
+   "hours_incomplete": 0,
+   "hours_with_inferred": 39,
+   "inferred_records": 101,
+   "inferred_in_event": 0,
+   "quality_codes": {
+    "v": "2401"
+   },
+   "hourly_range": [
+    -0.9032,
+    1.5172
+   ],
+   "note": "NOAA flag bit 1 = Inferred (official estimate), kept record by record and marked as contains_inferred in the hourly table; quality=v means verified"
+  },
+  "acosta_discharge": {
+   "station": "USGS 02246500 ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+   "lon": -81.6653735,
+   "lat": 30.3224616,
+   "parameter": "00060 Discharge, cubic feet per second (no tidal filtering)",
+   "native_step_min": 15,
+   "native_records_in_window": 868,
+   "native_expected": 961,
+   "units": "m3/s",
+   "timezone": "UTC",
+   "unit_conversion": "value_original[ft3/s] x 0.028316846592; max deviation from the downloaded value_si is 4.547e-13 m3/s",
+   "negative_records": 343,
+   "negative_fraction": 0.3952,
+   "hourly_rows": 240,
+   "hours_complete": 147,
+   "hours_incomplete": 93,
+   "hours_zero_records": 0,
+   "hours_with_estimated": 0,
+   "qualifier_counts": {
+    "A": "868"
+   },
+   "hourly_range": [
+    -5946.53778432,
+    6399.607329792
+   ],
+   "note": "USGS qualifier A=Approved, P=Provisional, e=Estimated (official estimate). This is a tidal station; 00060 is the non-de-tided total discharge, signed. 72137 is the tidally filtered value and is not used, as required."
+  }
+ },
+ "gaps": [
+  {
+   "start": "2017-09-08 19:45:00+00:00",
+   "end": "2017-09-08 20:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-08 20:45:00+00:00",
+   "end": "2017-09-08 21:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-08 21:45:00+00:00",
+   "end": "2017-09-08 22:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-08 22:45:00+00:00",
+   "end": "2017-09-08 23:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-08 23:45:00+00:00",
+   "end": "2017-09-09 00:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 00:45:00+00:00",
+   "end": "2017-09-09 01:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 01:45:00+00:00",
+   "end": "2017-09-09 02:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 02:45:00+00:00",
+   "end": "2017-09-09 03:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 03:45:00+00:00",
+   "end": "2017-09-09 04:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 04:45:00+00:00",
+   "end": "2017-09-09 05:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 05:45:00+00:00",
+   "end": "2017-09-09 06:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 06:45:00+00:00",
+   "end": "2017-09-09 07:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 07:45:00+00:00",
+   "end": "2017-09-09 08:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 08:45:00+00:00",
+   "end": "2017-09-09 09:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 09:45:00+00:00",
+   "end": "2017-09-09 10:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 10:45:00+00:00",
+   "end": "2017-09-09 11:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 11:45:00+00:00",
+   "end": "2017-09-09 12:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 12:45:00+00:00",
+   "end": "2017-09-09 13:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 13:45:00+00:00",
+   "end": "2017-09-09 14:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 14:45:00+00:00",
+   "end": "2017-09-09 15:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 15:45:00+00:00",
+   "end": "2017-09-09 16:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 16:45:00+00:00",
+   "end": "2017-09-09 17:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 17:45:00+00:00",
+   "end": "2017-09-09 18:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 18:45:00+00:00",
+   "end": "2017-09-09 19:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 19:45:00+00:00",
+   "end": "2017-09-09 20:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 20:45:00+00:00",
+   "end": "2017-09-09 21:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 21:45:00+00:00",
+   "end": "2017-09-09 22:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 22:45:00+00:00",
+   "end": "2017-09-09 23:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-09 23:45:00+00:00",
+   "end": "2017-09-10 00:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 00:45:00+00:00",
+   "end": "2017-09-10 01:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 01:45:00+00:00",
+   "end": "2017-09-10 02:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 02:45:00+00:00",
+   "end": "2017-09-10 03:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 03:45:00+00:00",
+   "end": "2017-09-10 04:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 04:45:00+00:00",
+   "end": "2017-09-10 05:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 05:45:00+00:00",
+   "end": "2017-09-10 06:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 06:45:00+00:00",
+   "end": "2017-09-10 07:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 07:45:00+00:00",
+   "end": "2017-09-10 08:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 08:45:00+00:00",
+   "end": "2017-09-10 09:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 09:45:00+00:00",
+   "end": "2017-09-10 10:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 10:45:00+00:00",
+   "end": "2017-09-10 11:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 11:45:00+00:00",
+   "end": "2017-09-10 12:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 12:45:00+00:00",
+   "end": "2017-09-10 13:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 13:45:00+00:00",
+   "end": "2017-09-10 14:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 14:45:00+00:00",
+   "end": "2017-09-10 15:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 15:45:00+00:00",
+   "end": "2017-09-10 16:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 16:45:00+00:00",
+   "end": "2017-09-10 17:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 17:45:00+00:00",
+   "end": "2017-09-10 18:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 18:45:00+00:00",
+   "end": "2017-09-10 19:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 19:45:00+00:00",
+   "end": "2017-09-10 20:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 20:45:00+00:00",
+   "end": "2017-09-10 21:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 21:45:00+00:00",
+   "end": "2017-09-10 22:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 22:45:00+00:00",
+   "end": "2017-09-10 23:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-10 23:45:00+00:00",
+   "end": "2017-09-11 00:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 00:45:00+00:00",
+   "end": "2017-09-11 01:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 01:45:00+00:00",
+   "end": "2017-09-11 02:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 02:45:00+00:00",
+   "end": "2017-09-11 03:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 03:45:00+00:00",
+   "end": "2017-09-11 04:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 04:45:00+00:00",
+   "end": "2017-09-11 05:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 05:45:00+00:00",
+   "end": "2017-09-11 06:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 06:45:00+00:00",
+   "end": "2017-09-11 07:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 07:45:00+00:00",
+   "end": "2017-09-11 08:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 08:45:00+00:00",
+   "end": "2017-09-11 09:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 09:45:00+00:00",
+   "end": "2017-09-11 10:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 10:45:00+00:00",
+   "end": "2017-09-11 11:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 11:45:00+00:00",
+   "end": "2017-09-11 12:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 12:45:00+00:00",
+   "end": "2017-09-11 13:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 13:45:00+00:00",
+   "end": "2017-09-11 14:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 14:45:00+00:00",
+   "end": "2017-09-11 15:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 15:45:00+00:00",
+   "end": "2017-09-11 16:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 16:45:00+00:00",
+   "end": "2017-09-11 17:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 17:45:00+00:00",
+   "end": "2017-09-11 18:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 18:45:00+00:00",
+   "end": "2017-09-11 19:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 19:45:00+00:00",
+   "end": "2017-09-11 20:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 20:45:00+00:00",
+   "end": "2017-09-11 21:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 21:45:00+00:00",
+   "end": "2017-09-11 22:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 22:45:00+00:00",
+   "end": "2017-09-11 23:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-11 23:45:00+00:00",
+   "end": "2017-09-12 00:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 00:45:00+00:00",
+   "end": "2017-09-12 01:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 01:45:00+00:00",
+   "end": "2017-09-12 02:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 02:45:00+00:00",
+   "end": "2017-09-12 03:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 03:45:00+00:00",
+   "end": "2017-09-12 04:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 04:45:00+00:00",
+   "end": "2017-09-12 05:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 05:45:00+00:00",
+   "end": "2017-09-12 06:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 06:45:00+00:00",
+   "end": "2017-09-12 07:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 07:45:00+00:00",
+   "end": "2017-09-12 08:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 08:45:00+00:00",
+   "end": "2017-09-12 09:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 09:45:00+00:00",
+   "end": "2017-09-12 10:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 10:45:00+00:00",
+   "end": "2017-09-12 11:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 11:45:00+00:00",
+   "end": "2017-09-12 12:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 12:45:00+00:00",
+   "end": "2017-09-12 13:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 13:45:00+00:00",
+   "end": "2017-09-12 14:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 14:45:00+00:00",
+   "end": "2017-09-12 15:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  },
+  {
+   "start": "2017-09-12 15:45:00+00:00",
+   "end": "2017-09-12 16:15:00+00:00",
+   "minutes": 15.0,
+   "kind": "record gap",
+   "series": "acosta_discharge"
+  }
+ ],
+ "incomplete_hours": [
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-08 21:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "spinup"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-08 22:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "spinup"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-08 23:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "spinup"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 00:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "spinup"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 01:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 02:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 03:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 04:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 05:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 06:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 07:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 08:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 09:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 10:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 11:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 12:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 13:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 14:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 15:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 16:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 17:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 18:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 19:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 20:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 21:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 22:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-09 23:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 00:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 01:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 02:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 03:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 04:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 05:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 06:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 07:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 08:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 09:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 10:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 11:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 12:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 13:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 14:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 15:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 16:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 17:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 18:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 19:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 20:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 21:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 22:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-10 23:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 00:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 01:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 02:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 03:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 04:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 05:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 06:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 07:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 08:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 09:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 10:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 11:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 12:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 13:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 14:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 15:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 16:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 17:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 18:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 19:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 20:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 21:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 22:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-11 23:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 00:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 01:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 02:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 03:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 04:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 05:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 06:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 07:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 08:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 09:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 10:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 11:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 12:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 13:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 14:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 15:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 16:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  },
+  {
+   "series": "acosta_discharge",
+   "hour_end_utc": "2017-09-12 17:00:00+00:00",
+   "n_valid": 3,
+   "n_expected": 4,
+   "coverage": 0.75,
+   "period": "event"
+  }
+ ]
+}

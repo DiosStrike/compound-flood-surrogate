@@ -1,0 +1,135 @@
+{
+ "event": "beryl",
+ "name": "Beryl",
+ "center_utc": "2012-05-28",
+ "window": {
+  "T0": "2012-05-22 00:00:00+00:00",
+  "spinup_end": "2012-05-25 00:00:00+00:00",
+  "T1": "2012-06-01 00:00:00+00:00",
+  "n_hours": 240,
+  "spinup_hours": 72,
+  "event_hours": 168,
+  "offset_days_vs_rule": 0,
+  "convention": "[T0,T1) left-closed right-open; label T=[T−1h,T); spin-up = label ≤ T0+3d"
+ },
+ "generated_utc": "2026-09-15T18:12:44Z",
+ "series": {
+  "mayport_waterlevel": {
+   "hours": 240,
+   "native_valid": 2400,
+   "native_expected": 2400,
+   "native_coverage": 1.0,
+   "hours_full": 240,
+   "hours_partial": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_official_est": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_interp": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_unfillable": 0,
+   "longest_gap_h": 0,
+   "completeness_after_fill": 1.0,
+   "peak": {
+    "time": "2012-05-28 07:00:00+00:00",
+    "value": 0.91,
+    "segment": "event"
+   }
+  },
+  "acosta_discharge": {
+   "hours": 240,
+   "native_valid": 960,
+   "native_expected": 960,
+   "native_coverage": 1.0,
+   "hours_full": 240,
+   "hours_partial": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_official_est": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_interp": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_unfillable": 0,
+   "longest_gap_h": 0,
+   "completeness_after_fill": 1.0,
+   "peak": {
+    "max_time": "2012-05-29 17:00:00+00:00",
+    "max": 4757.230227456,
+    "max_segment": "event",
+    "min_time": "2012-06-01 00:00:00+00:00",
+    "min": -4863.418402176,
+    "min_segment": "event",
+    "qlow25h_max_time": "2012-05-28 20:00:00+00:00",
+    "qlow25h_max": 1594.272131860198,
+    "qlow25h_segment": "event"
+   }
+  },
+  "rain": {
+   "product": "StageIV_01h",
+   "grid_shape": [
+    18,
+    20
+   ],
+   "n_cells_in_rect": 137,
+   "hours_missing": {
+    "spinup": 0,
+    "event": 0
+   },
+   "hours_partial_cells": 0,
+   "cellhours_interp": 0,
+   "cellhours_unfillable": 0,
+   "longest_gap_h": 0,
+   "total_mm_areal": {
+    "spinup": 0.7397810220446465,
+    "event": 121.56985469842262
+   },
+   "peak": {
+    "time": "2012-05-28 11:00:00+00:00",
+    "areal_mm": 9.192189743048953,
+    "segment": "event"
+   },
+   "completeness_after_fill": 1.0,
+   "ampr_note": "SFINCS ampr needs 241 time blocks (hourly from 0 s, last block = T1); these 240 frames are labels T0+1h…T1, frame k is the rain rate for [T0+(k−1)h, T0+kh), same as Irma"
+  }
+ },
+ "gaps": [],
+ "boundary_endpoints": {
+  "mayport": {
+   "records": 2401,
+   "expected": 2401,
+   "missing_records": 0,
+   "first": "2012-05-22 00:00:00+00:00",
+   "last": "2012-06-01 00:00:00+00:00",
+   "endpoint_T0_valid": true,
+   "endpoint_T1_valid": true,
+   "inferred_records": 0,
+   "note": "the T1 endpoint record only serves the SFINCS tstop boundary and is not counted in the 240 hourly intervals"
+  },
+  "acosta": {
+   "records": 961,
+   "expected": 961,
+   "missing_records": 0,
+   "first": "2012-05-22 00:00:00+00:00",
+   "last": "2012-06-01 00:00:00+00:00",
+   "endpoint_T0_valid": true,
+   "endpoint_T1_valid": true,
+   "estimated_records": 0,
+   "gaps_15min": []
+  }
+ },
+ "peaks_in_event_segment": {
+  "waterlevel": true,
+  "discharge_qlow25h": true,
+  "rain": true
+ }
+}

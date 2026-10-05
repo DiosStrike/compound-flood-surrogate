@@ -1,0 +1,123 @@
+{
+ "generated_utc": "2026-09-14T23:49:10Z",
+ "version": "user QGIS version (2026-09-14)",
+ "active_domain": {
+  "km2": 977.49,
+  "cells": 271526,
+  "z_min": -17.33,
+  "z_max": 28.82
+ },
+ "boundaries": {
+  "upstream": {
+   "kept": [
+    "UP01"
+   ],
+   "dropped": [
+    "UP02"
+   ],
+   "newly_digitized": [],
+   "features": [
+    {
+     "bnd_id": "UP01",
+     "bnd_type": "upstream_discharge",
+     "station": "02246500",
+     "station_name": "ST. JOHNS RIVER AT JACKSONVILLE, FL (Acosta Bridge)",
+     "forcing": "USGS 02246500 parameter 00060 raw signed total discharge, not de-tided, Q(t), m3/s",
+     "width_m": 660.0,
+     "z_min_m": -11.16,
+     "flow_area_m2": 5402.8,
+     "Q_fraction": 1.0,
+     "note": "redrawn by the user in QGIS on 2026-09-14; attributes recomputed on the 60 m grid by 12_apply_v2.py",
+     "status": "user_edited_v2",
+     "length_m": 629.6,
+     "n_edge_cells": 11
+    }
+   ]
+  },
+  "downstream": {
+   "kept": [
+    "DW00",
+    "DW01"
+   ],
+   "dropped": [
+    "DW01",
+    "DW02",
+    "DW03",
+    "DW04",
+    "DW05",
+    "DW06",
+    "DW07",
+    "DW08",
+    "DW09",
+    "DW10",
+    "DW11",
+    "DW12",
+    "DW13",
+    "DW14",
+    "DW15",
+    "DW16",
+    "DW17",
+    "DW18"
+   ],
+   "newly_digitized": [
+    "DW01"
+   ],
+   "features": [
+    {
+     "bnd_id": "DW00",
+     "bnd_type": "downstream_waterlevel",
+     "station": "8720218",
+     "station_name": "Mayport (Bar Pilots Dock)",
+     "forcing": "NOAA 8720218 observed total water level h(t), m NAVD88",
+     "kind": "seaward -2.0 m depth contour (Leijnse et al. 2021 §2.3/§4.1)",
+     "width_m": 16620.0,
+     "z_min_m": -17.33,
+     "note": "redrawn by the user in QGIS on 2026-09-14; attributes recomputed on the 60 m grid by 12_apply_v2.py",
+     "status": "user_edited_v2",
+     "flow_area_m2": 31583.1,
+     "length_m": 18433.1,
+     "n_edge_cells": 277
+    },
+    {
+     "bnd_id": "DW01",
+     "bnd_type": "downstream_waterlevel",
+     "station": "8720218",
+     "station_name": "Mayport (Bar Pilots Dock)",
+     "forcing": "NOAA 8720218 observed total water level h(t), m NAVD88",
+     "kind": "water-body cut added by the user in QGIS",
+     "width_m": 360.0,
+     "z_min_m": -3.58,
+     "note": "redrawn by the user in QGIS on 2026-09-14; attributes recomputed on the 60 m grid by 12_apply_v2.py",
+     "status": "user_edited_v2",
+     "flow_area_m2": 732.9,
+     "length_m": 590.7,
+     "n_edge_cells": 6
+    }
+   ]
+  }
+ },
+ "edge_cells": {
+  "total": 3100,
+  "wet": 302,
+  "covered": 294,
+  "uncovered": 8
+ },
+ "uncovered_clusters": [
+  {
+   "n_cells": 6,
+   "width_m": 360.0,
+   "x": 439380,
+   "y": 3353450,
+   "z_min_m": -5.14,
+   "flow_area_m2": 1389.9
+  },
+  {
+   "n_cells": 2,
+   "width_m": 120.0,
+   "x": 461220,
+   "y": 3338670,
+   "z_min_m": -3.17,
+   "flow_area_m2": 291.4
+  }
+ ]
+}

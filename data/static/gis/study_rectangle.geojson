@@ -1,0 +1,42 @@
+{
+ "type": "FeatureCollection",
+ "name": "study_rectangle",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -81.899352,
+       30.1631009
+      ],
+      [
+       -81.3697264,
+       30.165662
+      ],
+      [
+       -81.3710514,
+       30.5175961
+      ],
+      [
+       -81.9025747,
+       30.5149988
+      ],
+      [
+       -81.899352,
+       30.1631009
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "rectangular terrain map extent",
+    "width_m": 51000.0,
+    "height_m": 39000.0,
+    "note": "map extent, not the active model domain; surrounding terrain kept, not cropped"
+   }
+  }
+ ]
+}
