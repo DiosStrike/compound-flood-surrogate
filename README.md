@@ -8,28 +8,28 @@ Physics-based compound-flood models are reliable but expensive when many runs ar
 
 ```
 compound-flood-surrogate/
-├── proposal/proposal.md     research plan and methods
-├── report/report.pdf        final report
-├── code/                    all scripts and Colab notebooks (numbered in pipeline order)
-│   ├── paths.py             single source of truth for project paths
-│   ├── read_run.py          load_run(): read one SFINCS simulation
-│   ├── 01–16                data audit, study extent, terrain, hydro/rain forcing, SFINCS model build
-│   ├── 18, 20, 21           observation validation, ampr row-order test, rainfall QC
-│   ├── 22–25                Irma scenarios, multi-event data collection, 10-day windows, event scenarios
-│   ├── 26–29                batch verification, data completeness, summary reports
-│   ├── 30–35, 37            surrogate (U-Net) checks, preprocessing, data loader, model, training, eval, monitor
-│   ├── 38–41, 44, 45        Exp. 2 (cross-event, Colab) training/eval/monitoring/packing/summary
-│   ├── 42–43                Exp. 1 evaluation (43 also provides plotting helpers used by 44)
-│   ├── 46–49                Exp. 3 (few-shot fine-tuning) sampling/training/eval library/summary
-│   ├── 52, 55, 62, 66, 68, 70–72   report table generation
-│   └── colab_*.ipynb        Colab notebooks for Exp. 2 and Exp. 3 (one per fold)
-├── run_sfincs.sh            run one SFINCS simulation in Docker
-├── run_scenarios.sh         batch-run the Irma scenarios
-├── run_all_events.py        driver for all 6 events × 81 scenarios
+├── proposal/proposal.md           Research plan and methods
+├── report/report.pdf              Final report
+├── code/                          Scripts and notebooks, in pipeline order
+│   ├── paths.py                   Single source of truth for paths
+│   ├── read_run.py                load_run(): read one SFINCS run
+│   ├── 01–16                      Audit, extent, terrain, forcing, SFINCS
+│   ├── 18, 20, 21                 Obs. validation, ampr test, rain QC
+│   ├── 22–25                      Irma + multi-event data and scenarios
+│   ├── 26–29                      Batch checks, completeness, summaries
+│   ├── 30–35, 37                  U-Net: data, model, training, eval
+│   ├── 38–41, 44, 45              Exp. 2 cross-event: train/eval/summary
+│   ├── 42–43                      Exp. 1 eval (43: plot helpers for 44)
+│   ├── 46–49                      Exp. 3 few-shot: sample/train/eval
+│   ├── 52, 55, 62, 66, 68, 70–72  Report table generation
+│   └── colab_*.ipynb              Colab notebooks, Exp. 2/3 (per fold)
+├── run_sfincs.sh                  Run one SFINCS simulation (Docker)
+├── run_scenarios.sh               Batch-run the Irma scenarios
+├── run_all_events.py              Driver: 6 events × 81 scenarios
 ├── data/
-│   ├── static/              terrain, GIS boundaries, metadata, SFINCS base model (grid, mask, boundaries)
-│   └── <event>/             meta/ (data-quality records) and processed/ (water level, discharge, rainfall series)
-├── results/                 small result files: evaluation metrics (CSV/JSON) and summary tables for Exp. 1–3, manifests
+│   ├── static/                    Terrain, GIS, metadata, SFINCS base
+│   └── <event>/                   meta/ QC records; processed/ series
+├── results/                       Metrics (CSV/JSON), summaries, manifests
 ├── requirements.txt
 └── .gitignore
 ```
