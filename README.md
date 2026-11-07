@@ -66,3 +66,4 @@ This repository includes the static model inputs, processed forcing series, qual
 ## Report
 
 The full write-up is in [report/report.pdf](report/report.pdf).
+The poster is in [report/poster.pdf](report/poster.pdf).
